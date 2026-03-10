@@ -1,0 +1,1135 @@
+medicine_id,medicine_name,strength,use_case,alternative,stock,dosage,manufacturer
+1000,Paracetamol,5 mg,allergy,Loratadine,383,three times daily,Intas Pharma
+1001,Paracetamol,10 mg,bacterial infection,Prednisone,415,twice daily,Sun Pharma
+1002,Paracetamol,20 mg,diarrhea,Budesonide,307,three times daily,Glenmark
+1003,Paracetamol,25 mg,diabetes,Fluoxetine,929,once daily,Glenmark
+1004,Paracetamol,40 mg,diabetes,Paracetamol,787,once every 8 hours,Torrent Pharma
+1005,Paracetamol,50 mg,cholesterol control,Levocetirizine,588,once weekly,Lupin
+1006,Paracetamol,75 mg,depression,Salbutamol,393,once weekly,Torrent Pharma
+1007,Paracetamol,100 mg,allergy,Gliclazide,47,once daily,Intas Pharma
+1008,Paracetamol,150 mg,acid reflux,Risperidone,798,once weekly,Lupin
+1009,Paracetamol,200 mg,nausea and vomiting,Hydrochlorothiazide,260,once every 8 hours,Dr. Reddy's
+1010,Paracetamol,250 mg,allergy,Glimepiride,808,twice daily,Torrent Pharma
+1011,Paracetamol,300 mg,nausea and vomiting,Budesonide,765,once every 8 hours,Lupin
+1012,Paracetamol,400 mg,acid reflux,Furosemide,391,once every 8 hours,Glenmark
+1013,Paracetamol,500 mg,seizure control,Spironolactone,480,once weekly,Cipla
+1014,Paracetamol,600 mg,allergy,Salbutamol,202,twice daily,Alkem Labs
+1015,Paracetamol,750 mg,diarrhea,Ondansetron,417,three times daily,Aurobindo Pharma
+1016,Paracetamol,1 g,blood thinning,Prednisone,350,once daily,Cipla
+1017,Paracetamol,2 g,bacterial infection,Fluoxetine,463,twice daily,Glenmark
+1018,Paracetamol,125 mg/5 ml,allergy,Ciprofloxacin,372,once every 8 hours,Zydus Lifesciences
+1019,Paracetamol,250 mg/5 ml,blood thinning,Gabapentin,588,three times daily,Intas Pharma
+1020,Paracetamol,500 mg/5 ml,acid reflux,Domperidone,564,once every 8 hours,Zydus Lifesciences
+1021,Ibuprofen,5 mg,seizure control,Atorvastatin,669,once daily,Dr. Reddy's
+1022,Ibuprofen,10 mg,diarrhea,Gliclazide,882,three times daily,Torrent Pharma
+1023,Ibuprofen,20 mg,bacterial infection,Fluoxetine,950,once daily,Torrent Pharma
+1024,Ibuprofen,25 mg,acid reflux,Olanzapine,164,once weekly,Cipla
+1025,Ibuprofen,40 mg,nausea and vomiting,Pioglitazone,156,twice daily,Glenmark
+1026,Ibuprofen,50 mg,pain relief,Lamotrigine,77,once weekly,Glenmark
+1027,Ibuprofen,75 mg,fever,Loratadine,992,once every 8 hours,Lupin
+1028,Ibuprofen,100 mg,inflammation,Olanzapine,153,once daily,Sun Pharma
+1029,Ibuprofen,150 mg,diabetes,Gabapentin,113,twice daily,Intas Pharma
+1030,Ibuprofen,200 mg,hypertension,Loratadine,665,twice daily,Torrent Pharma
+1031,Ibuprofen,250 mg,nausea and vomiting,Formoterol,637,once every 8 hours,Cipla
+1032,Ibuprofen,300 mg,nausea and vomiting,Cetirizine,849,once weekly,Lupin
+1033,Ibuprofen,400 mg,hypertension,Cetirizine,101,twice daily,Cipla
+1034,Ibuprofen,500 mg,nausea and vomiting,Gabapentin,875,once daily,Dr. Reddy's
+1035,Ibuprofen,600 mg,bacterial infection,Formoterol,554,once every 8 hours,Zydus Lifesciences
+1036,Ibuprofen,750 mg,acid reflux,Pregabalin,272,once weekly,Lupin
+1037,Ibuprofen,1 g,asthma,Valproate,511,twice daily,Zydus Lifesciences
+1038,Ibuprofen,2 g,pain relief,Morphine,250,twice daily,Sun Pharma
+1039,Ibuprofen,125 mg/5 ml,asthma,Furosemide,692,twice daily,Alkem Labs
+1040,Ibuprofen,250 mg/5 ml,asthma,Pioglitazone,697,once every 8 hours,Torrent Pharma
+1041,Ibuprofen,500 mg/5 ml,pain relief,Fluoxetine,114,once weekly,Alkem Labs
+1042,Amoxicillin,5 mg,diabetes,Salbutamol,725,three times daily,Torrent Pharma
+1043,Amoxicillin,10 mg,diarrhea,Morphine,344,once daily,Torrent Pharma
+1044,Amoxicillin,20 mg,inflammation,Gliclazide,406,once every 8 hours,Intas Pharma
+1045,Amoxicillin,25 mg,nausea and vomiting,Glimepiride,981,once daily,Alkem Labs
+1046,Amoxicillin,40 mg,nausea and vomiting,Gliclazide,950,once daily,Zydus Lifesciences
+1047,Amoxicillin,50 mg,blood thinning,Azithromycin,639,twice daily,Zydus Lifesciences
+1048,Amoxicillin,75 mg,fever,Cetirizine,986,twice daily,Intas Pharma
+1049,Amoxicillin,100 mg,depression,Furosemide,814,once every 8 hours,Dr. Reddy's
+1050,Amoxicillin,150 mg,allergy,Levetiracetam,372,once weekly,Zydus Lifesciences
+1051,Amoxicillin,200 mg,pain relief,Ondansetron,989,once daily,Intas Pharma
+1052,Amoxicillin,250 mg,acid reflux,Budesonide,500,once daily,Aurobindo Pharma
+1053,Amoxicillin,300 mg,bacterial infection,Pantoprazole,686,twice daily,Torrent Pharma
+1054,Amoxicillin,400 mg,fever,Fluoxetine,118,once daily,Cipla
+1055,Amoxicillin,500 mg,inflammation,Naproxen,671,twice daily,Aurobindo Pharma
+1056,Amoxicillin,600 mg,diabetes,Cetirizine,625,three times daily,Sun Pharma
+1057,Amoxicillin,750 mg,cholesterol control,Glimepiride,141,once weekly,Dr. Reddy's
+1058,Amoxicillin,1 g,hypertension,Olanzapine,183,once weekly,Dr. Reddy's
+1059,Amoxicillin,2 g,fever,Aspirin,408,three times daily,Zydus Lifesciences
+1060,Amoxicillin,125 mg/5 ml,seizure control,Clindamycin,242,once weekly,Sun Pharma
+1061,Amoxicillin,250 mg/5 ml,pain relief,Pantoprazole,903,three times daily,Aurobindo Pharma
+1062,Amoxicillin,500 mg/5 ml,pain relief,Aspirin,865,three times daily,Cipla
+1063,Azithromycin,5 mg,diabetes,Olanzapine,956,twice daily,Glenmark
+1064,Azithromycin,10 mg,pain relief,Omeprazole,792,once weekly,Torrent Pharma
+1065,Azithromycin,20 mg,inflammation,Ciprofloxacin,850,once every 8 hours,Alkem Labs
+1066,Azithromycin,25 mg,pain relief,Desloratadine,797,once daily,Zydus Lifesciences
+1067,Azithromycin,40 mg,depression,Insulin,241,three times daily,Cipla
+1068,Azithromycin,50 mg,asthma,Glimepiride,645,twice daily,Intas Pharma
+1069,Azithromycin,75 mg,hypertension,Azithromycin,234,once daily,Torrent Pharma
+1070,Azithromycin,100 mg,fever,Salbutamol,73,once every 8 hours,Dr. Reddy's
+1071,Azithromycin,150 mg,diabetes,Ondansetron,125,once every 8 hours,Intas Pharma
+1072,Azithromycin,200 mg,allergy,Loratadine,593,three times daily,Zydus Lifesciences
+1073,Azithromycin,250 mg,acid reflux,Azithromycin,136,once weekly,Sun Pharma
+1074,Azithromycin,300 mg,seizure control,Omeprazole,164,once every 8 hours,Torrent Pharma
+1075,Azithromycin,400 mg,fever,Levocetirizine,113,three times daily,Aurobindo Pharma
+1076,Azithromycin,500 mg,nausea and vomiting,Famotidine,955,twice daily,Lupin
+1077,Azithromycin,600 mg,depression,Metronidazole,327,once daily,Torrent Pharma
+1078,Azithromycin,750 mg,asthma,Pioglitazone,983,three times daily,Intas Pharma
+1079,Azithromycin,1 g,nausea and vomiting,Doxycycline,702,once weekly,Alkem Labs
+1080,Azithromycin,2 g,bacterial infection,Gliclazide,96,three times daily,Torrent Pharma
+1081,Azithromycin,125 mg/5 ml,cholesterol control,Pregabalin,774,twice daily,Aurobindo Pharma
+1082,Azithromycin,250 mg/5 ml,asthma,Morphine,891,three times daily,Dr. Reddy's
+1083,Azithromycin,500 mg/5 ml,diabetes,Glimepiride,840,once every 8 hours,Cipla
+1084,Metformin,5 mg,depression,Omeprazole,463,once every 8 hours,Torrent Pharma
+1085,Metformin,10 mg,nausea and vomiting,Formoterol,804,once daily,Zydus Lifesciences
+1086,Metformin,20 mg,seizure control,Desloratadine,915,once daily,Alkem Labs
+1087,Metformin,25 mg,cholesterol control,Metronidazole,267,three times daily,Glenmark
+1088,Metformin,40 mg,acid reflux,Cetirizine,728,twice daily,Alkem Labs
+1089,Metformin,50 mg,pain relief,Losartan,406,three times daily,Lupin
+1090,Metformin,75 mg,cholesterol control,Ibuprofen,109,once weekly,Zydus Lifesciences
+1091,Metformin,100 mg,anxiety,Olanzapine,776,once every 8 hours,Zydus Lifesciences
+1092,Metformin,150 mg,fever,Amlodipine,316,three times daily,Aurobindo Pharma
+1093,Metformin,200 mg,diarrhea,Doxycycline,286,once daily,Cipla
+1094,Metformin,250 mg,acid reflux,Ondansetron,668,once daily,Alkem Labs
+1095,Metformin,300 mg,inflammation,Levocetirizine,105,once every 8 hours,Torrent Pharma
+1096,Metformin,400 mg,bacterial infection,Tramadol,825,twice daily,Cipla
+1097,Metformin,500 mg,bacterial infection,Omeprazole,440,three times daily,Alkem Labs
+1098,Metformin,600 mg,seizure control,Sertraline,212,twice daily,Intas Pharma
+1099,Metformin,750 mg,nausea and vomiting,Warfarin,768,once weekly,Lupin
+1100,Metformin,1 g,cholesterol control,Desloratadine,534,once every 8 hours,Zydus Lifesciences
+1101,Metformin,2 g,diarrhea,Gliclazide,541,once every 8 hours,Sun Pharma
+1102,Metformin,125 mg/5 ml,acid reflux,Loratadine,403,once daily,Dr. Reddy's
+1103,Metformin,250 mg/5 ml,asthma,Desloratadine,852,twice daily,Torrent Pharma
+1104,Metformin,500 mg/5 ml,bacterial infection,Metronidazole,974,twice daily,Intas Pharma
+1105,Atorvastatin,5 mg,inflammation,Metronidazole,758,once weekly,Torrent Pharma
+1106,Atorvastatin,10 mg,diarrhea,Amoxicillin,410,once every 8 hours,Lupin
+1107,Atorvastatin,20 mg,fever,Paracetamol,261,once daily,Alkem Labs
+1108,Atorvastatin,25 mg,bacterial infection,Diclofenac,94,once every 8 hours,Alkem Labs
+1109,Atorvastatin,40 mg,depression,Desloratadine,669,once weekly,Torrent Pharma
+1110,Atorvastatin,50 mg,nausea and vomiting,Desloratadine,41,once weekly,Sun Pharma
+1111,Atorvastatin,75 mg,acid reflux,Budesonide,460,once every 8 hours,Lupin
+1112,Atorvastatin,100 mg,inflammation,Prednisone,734,once weekly,Cipla
+1113,Atorvastatin,150 mg,diarrhea,Furosemide,391,once every 8 hours,Dr. Reddy's
+1114,Atorvastatin,200 mg,inflammation,Valproate,670,twice daily,Zydus Lifesciences
+1115,Atorvastatin,250 mg,inflammation,Furosemide,153,three times daily,Lupin
+1116,Atorvastatin,300 mg,anxiety,Codeine,303,once weekly,Torrent Pharma
+1117,Atorvastatin,400 mg,anxiety,Desloratadine,576,once daily,Glenmark
+1118,Atorvastatin,500 mg,seizure control,Warfarin,887,three times daily,Glenmark
+1119,Atorvastatin,600 mg,diabetes,Domperidone,464,once daily,Cipla
+1120,Atorvastatin,750 mg,inflammation,Risperidone,703,once daily,Sun Pharma
+1121,Atorvastatin,1 g,cholesterol control,Risperidone,344,three times daily,Sun Pharma
+1122,Atorvastatin,2 g,pain relief,Insulin,996,three times daily,Torrent Pharma
+1123,Atorvastatin,125 mg/5 ml,diabetes,Sertraline,702,once daily,Aurobindo Pharma
+1124,Atorvastatin,250 mg/5 ml,nausea and vomiting,Amlodipine,253,once every 8 hours,Glenmark
+1125,Atorvastatin,500 mg/5 ml,asthma,Quetiapine,365,twice daily,Lupin
+1126,Amlodipine,5 mg,diabetes,Fluoxetine,848,once weekly,Intas Pharma
+1127,Amlodipine,10 mg,fever,Desloratadine,89,once daily,Sun Pharma
+1128,Amlodipine,20 mg,fever,Spironolactone,774,once every 8 hours,Cipla
+1129,Amlodipine,25 mg,hypertension,Naproxen,602,once every 8 hours,Sun Pharma
+1130,Amlodipine,40 mg,hypertension,Azithromycin,280,once weekly,Lupin
+1131,Amlodipine,50 mg,inflammation,Codeine,901,three times daily,Torrent Pharma
+1132,Amlodipine,75 mg,bacterial infection,Desloratadine,246,twice daily,Lupin
+1133,Amlodipine,100 mg,anxiety,Morphine,817,twice daily,Aurobindo Pharma
+1134,Amlodipine,150 mg,allergy,Insulin,96,once daily,Sun Pharma
+1135,Amlodipine,200 mg,inflammation,Ciprofloxacin,72,twice daily,Glenmark
+1136,Amlodipine,250 mg,acid reflux,Hydrochlorothiazide,156,once every 8 hours,Glenmark
+1137,Amlodipine,300 mg,seizure control,Doxycycline,690,once weekly,Sun Pharma
+1138,Amlodipine,400 mg,diarrhea,Gliclazide,298,once weekly,Torrent Pharma
+1139,Amlodipine,500 mg,bacterial infection,Atorvastatin,774,three times daily,Sun Pharma
+1140,Amlodipine,600 mg,hypertension,Doxycycline,960,twice daily,Zydus Lifesciences
+1141,Amlodipine,750 mg,inflammation,Diclofenac,15,once weekly,Lupin
+1142,Amlodipine,1 g,acid reflux,Tramadol,695,once weekly,Glenmark
+1143,Amlodipine,2 g,cholesterol control,Sertraline,977,once every 8 hours,Dr. Reddy's
+1144,Amlodipine,125 mg/5 ml,seizure control,Metronidazole,149,once daily,Dr. Reddy's
+1145,Amlodipine,250 mg/5 ml,depression,Quetiapine,645,once weekly,Lupin
+1146,Amlodipine,500 mg/5 ml,pain relief,Hydrochlorothiazide,418,three times daily,Torrent Pharma
+1147,Losartan,5 mg,asthma,Levetiracetam,108,three times daily,Alkem Labs
+1148,Losartan,10 mg,blood thinning,Valproate,786,twice daily,Aurobindo Pharma
+1149,Losartan,20 mg,pain relief,Diclofenac,179,three times daily,Glenmark
+1150,Losartan,25 mg,seizure control,Hydrochlorothiazide,680,three times daily,Intas Pharma
+1151,Losartan,40 mg,anxiety,Azithromycin,796,twice daily,Dr. Reddy's
+1152,Losartan,50 mg,inflammation,Diclofenac,819,once daily,Alkem Labs
+1153,Losartan,75 mg,diabetes,Budesonide,916,three times daily,Aurobindo Pharma
+1154,Losartan,100 mg,pain relief,Risperidone,43,once daily,Intas Pharma
+1155,Losartan,150 mg,diarrhea,Famotidine,858,three times daily,Lupin
+1156,Losartan,200 mg,diabetes,Naproxen,511,once weekly,Glenmark
+1157,Losartan,250 mg,diabetes,Lamotrigine,946,once every 8 hours,Glenmark
+1158,Losartan,300 mg,inflammation,Amlodipine,804,once weekly,Sun Pharma
+1159,Losartan,400 mg,nausea and vomiting,Azithromycin,747,twice daily,Torrent Pharma
+1160,Losartan,500 mg,pain relief,Warfarin,348,once daily,Dr. Reddy's
+1161,Losartan,600 mg,fever,Montelukast,417,once weekly,Intas Pharma
+1162,Losartan,750 mg,bacterial infection,Lamotrigine,249,once weekly,Zydus Lifesciences
+1163,Losartan,1 g,depression,Clindamycin,783,once every 8 hours,Sun Pharma
+1164,Losartan,2 g,seizure control,Furosemide,469,three times daily,Zydus Lifesciences
+1165,Losartan,125 mg/5 ml,nausea and vomiting,Spironolactone,262,once daily,Lupin
+1166,Losartan,250 mg/5 ml,inflammation,Pregabalin,278,twice daily,Aurobindo Pharma
+1167,Losartan,500 mg/5 ml,cholesterol control,Omeprazole,697,once weekly,Glenmark
+1168,Pantoprazole,5 mg,blood thinning,Pioglitazone,206,twice daily,Dr. Reddy's
+1169,Pantoprazole,10 mg,depression,Ciprofloxacin,460,once every 8 hours,Lupin
+1170,Pantoprazole,20 mg,anxiety,Tramadol,255,once weekly,Intas Pharma
+1171,Pantoprazole,25 mg,blood thinning,Codeine,870,once every 8 hours,Aurobindo Pharma
+1172,Pantoprazole,40 mg,asthma,Formoterol,58,twice daily,Cipla
+1173,Pantoprazole,50 mg,depression,Atorvastatin,200,twice daily,Aurobindo Pharma
+1174,Pantoprazole,75 mg,depression,Famotidine,81,once daily,Intas Pharma
+1175,Pantoprazole,100 mg,depression,Famotidine,110,three times daily,Torrent Pharma
+1176,Pantoprazole,150 mg,nausea and vomiting,Azithromycin,65,twice daily,Lupin
+1177,Pantoprazole,200 mg,asthma,Glimepiride,251,twice daily,Cipla
+1178,Pantoprazole,250 mg,acid reflux,Budesonide,274,once weekly,Glenmark
+1179,Pantoprazole,300 mg,pain relief,Atorvastatin,85,twice daily,Torrent Pharma
+1180,Pantoprazole,400 mg,asthma,Valproate,202,once weekly,Zydus Lifesciences
+1181,Pantoprazole,500 mg,allergy,Metformin,882,once weekly,Dr. Reddy's
+1182,Pantoprazole,600 mg,bacterial infection,Omeprazole,157,three times daily,Intas Pharma
+1183,Pantoprazole,750 mg,anxiety,Formoterol,221,once daily,Lupin
+1184,Pantoprazole,1 g,seizure control,Metronidazole,513,once weekly,Lupin
+1185,Pantoprazole,2 g,fever,Losartan,876,once every 8 hours,Intas Pharma
+1186,Pantoprazole,125 mg/5 ml,blood thinning,Salbutamol,876,three times daily,Sun Pharma
+1187,Pantoprazole,250 mg/5 ml,cholesterol control,Azithromycin,759,once weekly,Aurobindo Pharma
+1188,Pantoprazole,500 mg/5 ml,pain relief,Levocetirizine,225,once weekly,Aurobindo Pharma
+1189,Omeprazole,5 mg,fever,Loratadine,117,once every 8 hours,Zydus Lifesciences
+1190,Omeprazole,10 mg,nausea and vomiting,Furosemide,433,once every 8 hours,Intas Pharma
+1191,Omeprazole,20 mg,asthma,Cetirizine,80,twice daily,Sun Pharma
+1192,Omeprazole,25 mg,blood thinning,Codeine,431,once daily,Intas Pharma
+1193,Omeprazole,40 mg,seizure control,Diclofenac,874,once every 8 hours,Sun Pharma
+1194,Omeprazole,50 mg,fever,Morphine,773,three times daily,Sun Pharma
+1195,Omeprazole,75 mg,diabetes,Atorvastatin,402,twice daily,Dr. Reddy's
+1196,Omeprazole,100 mg,diabetes,Lamotrigine,503,once weekly,Zydus Lifesciences
+1197,Omeprazole,150 mg,allergy,Pantoprazole,880,twice daily,Glenmark
+1198,Omeprazole,200 mg,anxiety,Pantoprazole,136,twice daily,Alkem Labs
+1199,Omeprazole,250 mg,pain relief,Doxycycline,826,once daily,Intas Pharma
+1200,Omeprazole,300 mg,blood thinning,Quetiapine,129,three times daily,Zydus Lifesciences
+1201,Omeprazole,400 mg,seizure control,Morphine,896,once daily,Aurobindo Pharma
+1202,Omeprazole,500 mg,nausea and vomiting,Metronidazole,956,three times daily,Glenmark
+1203,Omeprazole,600 mg,bacterial infection,Famotidine,522,once weekly,Glenmark
+1204,Omeprazole,750 mg,hypertension,Paracetamol,592,three times daily,Aurobindo Pharma
+1205,Omeprazole,1 g,asthma,Olanzapine,295,three times daily,Intas Pharma
+1206,Omeprazole,2 g,anxiety,Domperidone,785,twice daily,Zydus Lifesciences
+1207,Omeprazole,125 mg/5 ml,pain relief,Prednisone,233,three times daily,Aurobindo Pharma
+1208,Omeprazole,250 mg/5 ml,nausea and vomiting,Amlodipine,559,once weekly,Sun Pharma
+1209,Omeprazole,500 mg/5 ml,hypertension,Fluoxetine,110,twice daily,Sun Pharma
+1210,Cetirizine,5 mg,allergy,Metformin,452,once daily,Sun Pharma
+1211,Cetirizine,10 mg,diabetes,Paracetamol,789,once every 8 hours,Alkem Labs
+1212,Cetirizine,20 mg,seizure control,Warfarin,418,three times daily,Alkem Labs
+1213,Cetirizine,25 mg,cholesterol control,Salbutamol,846,once every 8 hours,Lupin
+1214,Cetirizine,40 mg,allergy,Salbutamol,165,once daily,Dr. Reddy's
+1215,Cetirizine,50 mg,acid reflux,Naproxen,658,once weekly,Dr. Reddy's
+1216,Cetirizine,75 mg,depression,Ibuprofen,695,three times daily,Sun Pharma
+1217,Cetirizine,100 mg,anxiety,Loperamide,50,once weekly,Glenmark
+1218,Cetirizine,150 mg,diabetes,Losartan,365,once every 8 hours,Intas Pharma
+1219,Cetirizine,200 mg,allergy,Carbamazepine,459,once every 8 hours,Dr. Reddy's
+1220,Cetirizine,250 mg,acid reflux,Famotidine,403,once weekly,Lupin
+1221,Cetirizine,300 mg,asthma,Amlodipine,707,twice daily,Intas Pharma
+1222,Cetirizine,400 mg,diarrhea,Diclofenac,156,once weekly,Zydus Lifesciences
+1223,Cetirizine,500 mg,seizure control,Glimepiride,54,twice daily,Sun Pharma
+1224,Cetirizine,600 mg,pain relief,Warfarin,475,once daily,Dr. Reddy's
+1225,Cetirizine,750 mg,diarrhea,Formoterol,952,once daily,Alkem Labs
+1226,Cetirizine,1 g,diarrhea,Pioglitazone,769,three times daily,Aurobindo Pharma
+1227,Cetirizine,2 g,allergy,Loperamide,241,once daily,Zydus Lifesciences
+1228,Cetirizine,125 mg/5 ml,acid reflux,Tramadol,141,once every 8 hours,Dr. Reddy's
+1229,Cetirizine,250 mg/5 ml,allergy,Naproxen,803,three times daily,Cipla
+1230,Cetirizine,500 mg/5 ml,pain relief,Salbutamol,855,twice daily,Aurobindo Pharma
+1231,Levocetirizine,5 mg,bacterial infection,Salbutamol,895,three times daily,Torrent Pharma
+1232,Levocetirizine,10 mg,anxiety,Diclofenac,167,once weekly,Lupin
+1233,Levocetirizine,20 mg,cholesterol control,Pioglitazone,662,twice daily,Intas Pharma
+1234,Levocetirizine,25 mg,depression,Famotidine,671,once weekly,Sun Pharma
+1235,Levocetirizine,40 mg,pain relief,Gabapentin,971,once daily,Alkem Labs
+1236,Levocetirizine,50 mg,pain relief,Montelukast,513,once daily,Dr. Reddy's
+1237,Levocetirizine,75 mg,diarrhea,Amlodipine,943,once daily,Cipla
+1238,Levocetirizine,100 mg,blood thinning,Ondansetron,422,three times daily,Lupin
+1239,Levocetirizine,150 mg,bacterial infection,Fluoxetine,14,once daily,Lupin
+1240,Levocetirizine,200 mg,diabetes,Clindamycin,363,once daily,Aurobindo Pharma
+1241,Levocetirizine,250 mg,diabetes,Metformin,343,three times daily,Sun Pharma
+1242,Levocetirizine,300 mg,acid reflux,Budesonide,78,three times daily,Zydus Lifesciences
+1243,Levocetirizine,400 mg,bacterial infection,Glimepiride,149,once every 8 hours,Glenmark
+1244,Levocetirizine,500 mg,acid reflux,Carbamazepine,900,once daily,Cipla
+1245,Levocetirizine,600 mg,seizure control,Gliclazide,948,once every 8 hours,Glenmark
+1246,Levocetirizine,750 mg,blood thinning,Prednisone,584,twice daily,Dr. Reddy's
+1247,Levocetirizine,1 g,depression,Furosemide,243,once every 8 hours,Dr. Reddy's
+1248,Levocetirizine,2 g,depression,Paracetamol,707,three times daily,Aurobindo Pharma
+1249,Levocetirizine,125 mg/5 ml,pain relief,Pregabalin,160,once weekly,Glenmark
+1250,Levocetirizine,250 mg/5 ml,anxiety,Doxycycline,140,three times daily,Glenmark
+1251,Levocetirizine,500 mg/5 ml,bacterial infection,Montelukast,707,twice daily,Lupin
+1252,Montelukast,5 mg,diarrhea,Formoterol,404,once daily,Dr. Reddy's
+1253,Montelukast,10 mg,bacterial infection,Prednisone,601,once weekly,Aurobindo Pharma
+1254,Montelukast,20 mg,acid reflux,Formoterol,930,three times daily,Zydus Lifesciences
+1255,Montelukast,25 mg,anxiety,Furosemide,796,once daily,Alkem Labs
+1256,Montelukast,40 mg,nausea and vomiting,Cetirizine,328,once every 8 hours,Intas Pharma
+1257,Montelukast,50 mg,asthma,Clopidogrel,887,twice daily,Zydus Lifesciences
+1258,Montelukast,75 mg,asthma,Naproxen,648,once daily,Dr. Reddy's
+1259,Montelukast,100 mg,inflammation,Clindamycin,950,twice daily,Lupin
+1260,Montelukast,150 mg,acid reflux,Clindamycin,242,once every 8 hours,Zydus Lifesciences
+1261,Montelukast,200 mg,diarrhea,Sertraline,331,once every 8 hours,Sun Pharma
+1262,Montelukast,250 mg,seizure control,Pantoprazole,241,twice daily,Dr. Reddy's
+1263,Montelukast,300 mg,asthma,Metformin,179,once daily,Intas Pharma
+1264,Montelukast,400 mg,anxiety,Domperidone,30,once weekly,Cipla
+1265,Montelukast,500 mg,asthma,Salbutamol,454,once daily,Intas Pharma
+1266,Montelukast,600 mg,nausea and vomiting,Amlodipine,629,once weekly,Intas Pharma
+1267,Montelukast,750 mg,bacterial infection,Amlodipine,314,once daily,Intas Pharma
+1268,Montelukast,1 g,fever,Aspirin,54,once every 8 hours,Sun Pharma
+1269,Montelukast,2 g,inflammation,Budesonide,846,once daily,Sun Pharma
+1270,Montelukast,125 mg/5 ml,bacterial infection,Desloratadine,305,once weekly,Lupin
+1271,Montelukast,250 mg/5 ml,asthma,Pioglitazone,135,once every 8 hours,Dr. Reddy's
+1272,Montelukast,500 mg/5 ml,diarrhea,Loratadine,371,twice daily,Alkem Labs
+1273,Prednisone,5 mg,hypertension,Levetiracetam,53,once every 8 hours,Cipla
+1274,Prednisone,10 mg,allergy,Quetiapine,330,twice daily,Lupin
+1275,Prednisone,20 mg,bacterial infection,Prednisone,381,once weekly,Cipla
+1276,Prednisone,25 mg,depression,Pantoprazole,317,once every 8 hours,Cipla
+1277,Prednisone,40 mg,bacterial infection,Lamotrigine,586,three times daily,Torrent Pharma
+1278,Prednisone,50 mg,nausea and vomiting,Paracetamol,993,three times daily,Aurobindo Pharma
+1279,Prednisone,75 mg,diabetes,Loperamide,411,once weekly,Lupin
+1280,Prednisone,100 mg,blood thinning,Amoxicillin,675,twice daily,Aurobindo Pharma
+1281,Prednisone,150 mg,hypertension,Lamotrigine,726,once daily,Dr. Reddy's
+1282,Prednisone,200 mg,acid reflux,Risperidone,554,three times daily,Sun Pharma
+1283,Prednisone,250 mg,nausea and vomiting,Azithromycin,472,three times daily,Alkem Labs
+1284,Prednisone,300 mg,bacterial infection,Haloperidol,391,twice daily,Aurobindo Pharma
+1285,Prednisone,400 mg,diabetes,Amoxicillin,308,three times daily,Lupin
+1286,Prednisone,500 mg,diarrhea,Aspirin,785,three times daily,Zydus Lifesciences
+1287,Prednisone,600 mg,pain relief,Azithromycin,834,once every 8 hours,Alkem Labs
+1288,Prednisone,750 mg,anxiety,Losartan,110,once daily,Zydus Lifesciences
+1289,Prednisone,1 g,hypertension,Naproxen,91,three times daily,Torrent Pharma
+1290,Prednisone,2 g,cholesterol control,Lamotrigine,518,once weekly,Intas Pharma
+1291,Prednisone,125 mg/5 ml,depression,Aspirin,911,once weekly,Zydus Lifesciences
+1292,Prednisone,250 mg/5 ml,anxiety,Insulin,789,once weekly,Aurobindo Pharma
+1293,Prednisone,500 mg/5 ml,inflammation,Aspirin,909,three times daily,Glenmark
+1294,Sertraline,5 mg,asthma,Quetiapine,258,once weekly,Glenmark
+1295,Sertraline,10 mg,blood thinning,Metformin,178,once daily,Sun Pharma
+1296,Sertraline,20 mg,nausea and vomiting,Domperidone,861,once every 8 hours,Dr. Reddy's
+1297,Sertraline,25 mg,asthma,Ciprofloxacin,36,once daily,Alkem Labs
+1298,Sertraline,40 mg,diabetes,Gliclazide,975,once daily,Aurobindo Pharma
+1299,Sertraline,50 mg,bacterial infection,Levocetirizine,228,once daily,Zydus Lifesciences
+1300,Sertraline,75 mg,inflammation,Ibuprofen,415,once daily,Intas Pharma
+1301,Sertraline,100 mg,asthma,Ciprofloxacin,983,once every 8 hours,Zydus Lifesciences
+1302,Sertraline,150 mg,pain relief,Gabapentin,41,three times daily,Zydus Lifesciences
+1303,Sertraline,200 mg,diarrhea,Salbutamol,858,once daily,Glenmark
+1304,Sertraline,250 mg,hypertension,Glimepiride,874,once daily,Zydus Lifesciences
+1305,Sertraline,300 mg,cholesterol control,Metformin,568,three times daily,Intas Pharma
+1306,Sertraline,400 mg,bacterial infection,Haloperidol,792,three times daily,Zydus Lifesciences
+1307,Sertraline,500 mg,acid reflux,Doxycycline,195,once every 8 hours,Sun Pharma
+1308,Sertraline,600 mg,diarrhea,Famotidine,880,once daily,Lupin
+1309,Sertraline,750 mg,nausea and vomiting,Sertraline,240,once weekly,Zydus Lifesciences
+1310,Sertraline,1 g,hypertension,Prednisone,743,once daily,Sun Pharma
+1311,Sertraline,2 g,allergy,Famotidine,716,twice daily,Cipla
+1312,Sertraline,125 mg/5 ml,acid reflux,Salbutamol,729,once weekly,Cipla
+1313,Sertraline,250 mg/5 ml,seizure control,Olanzapine,500,three times daily,Zydus Lifesciences
+1314,Sertraline,500 mg/5 ml,seizure control,Glimepiride,906,twice daily,Glenmark
+1315,Fluoxetine,5 mg,fever,Diclofenac,152,once every 8 hours,Intas Pharma
+1316,Fluoxetine,10 mg,nausea and vomiting,Domperidone,787,once every 8 hours,Cipla
+1317,Fluoxetine,20 mg,allergy,Tramadol,154,twice daily,Intas Pharma
+1318,Fluoxetine,25 mg,blood thinning,Loperamide,22,three times daily,Intas Pharma
+1319,Fluoxetine,40 mg,diabetes,Losartan,386,once weekly,Cipla
+1320,Fluoxetine,50 mg,seizure control,Sertraline,282,three times daily,Glenmark
+1321,Fluoxetine,75 mg,hypertension,Gabapentin,387,three times daily,Glenmark
+1322,Fluoxetine,100 mg,seizure control,Risperidone,636,three times daily,Sun Pharma
+1323,Fluoxetine,150 mg,pain relief,Salbutamol,775,once daily,Torrent Pharma
+1324,Fluoxetine,200 mg,diarrhea,Codeine,952,once weekly,Lupin
+1325,Fluoxetine,250 mg,pain relief,Famotidine,205,three times daily,Aurobindo Pharma
+1326,Fluoxetine,300 mg,pain relief,Tramadol,514,twice daily,Glenmark
+1327,Fluoxetine,400 mg,pain relief,Doxycycline,616,three times daily,Lupin
+1328,Fluoxetine,500 mg,cholesterol control,Aspirin,807,once weekly,Alkem Labs
+1329,Fluoxetine,600 mg,asthma,Valproate,38,once every 8 hours,Alkem Labs
+1330,Fluoxetine,750 mg,acid reflux,Carbamazepine,793,once weekly,Dr. Reddy's
+1331,Fluoxetine,1 g,pain relief,Diclofenac,344,twice daily,Alkem Labs
+1332,Fluoxetine,2 g,nausea and vomiting,Insulin,840,once weekly,Intas Pharma
+1333,Fluoxetine,125 mg/5 ml,diabetes,Gliclazide,20,once daily,Lupin
+1334,Fluoxetine,250 mg/5 ml,fever,Atorvastatin,570,once daily,Zydus Lifesciences
+1335,Fluoxetine,500 mg/5 ml,fever,Azithromycin,46,three times daily,Zydus Lifesciences
+1336,Ciprofloxacin,5 mg,blood thinning,Desloratadine,312,twice daily,Sun Pharma
+1337,Ciprofloxacin,10 mg,anxiety,Glimepiride,423,once daily,Sun Pharma
+1338,Ciprofloxacin,20 mg,seizure control,Pantoprazole,878,once every 8 hours,Intas Pharma
+1339,Ciprofloxacin,25 mg,allergy,Ondansetron,918,twice daily,Intas Pharma
+1340,Ciprofloxacin,40 mg,inflammation,Levocetirizine,888,three times daily,Torrent Pharma
+1341,Ciprofloxacin,50 mg,nausea and vomiting,Naproxen,489,once daily,Alkem Labs
+1342,Ciprofloxacin,75 mg,diarrhea,Pregabalin,344,three times daily,Intas Pharma
+1343,Ciprofloxacin,100 mg,diarrhea,Domperidone,196,twice daily,Aurobindo Pharma
+1344,Ciprofloxacin,150 mg,hypertension,Insulin,488,once daily,Torrent Pharma
+1345,Ciprofloxacin,200 mg,pain relief,Aspirin,163,once weekly,Torrent Pharma
+1346,Ciprofloxacin,250 mg,diabetes,Clopidogrel,461,once every 8 hours,Intas Pharma
+1347,Ciprofloxacin,300 mg,diarrhea,Ondansetron,468,twice daily,Glenmark
+1348,Ciprofloxacin,400 mg,hypertension,Pantoprazole,630,once every 8 hours,Dr. Reddy's
+1349,Ciprofloxacin,500 mg,pain relief,Codeine,91,once every 8 hours,Glenmark
+1350,Ciprofloxacin,600 mg,blood thinning,Ciprofloxacin,486,twice daily,Alkem Labs
+1351,Ciprofloxacin,750 mg,blood thinning,Morphine,457,once daily,Zydus Lifesciences
+1352,Ciprofloxacin,1 g,pain relief,Amoxicillin,375,twice daily,Alkem Labs
+1353,Ciprofloxacin,2 g,inflammation,Naproxen,875,twice daily,Glenmark
+1354,Ciprofloxacin,125 mg/5 ml,hypertension,Morphine,537,once every 8 hours,Glenmark
+1355,Ciprofloxacin,250 mg/5 ml,diarrhea,Tramadol,950,twice daily,Lupin
+1356,Ciprofloxacin,500 mg/5 ml,anxiety,Gliclazide,835,once weekly,Glenmark
+1357,Doxycycline,5 mg,seizure control,Spironolactone,408,once every 8 hours,Alkem Labs
+1358,Doxycycline,10 mg,pain relief,Aspirin,648,once weekly,Dr. Reddy's
+1359,Doxycycline,20 mg,diabetes,Insulin,851,once every 8 hours,Sun Pharma
+1360,Doxycycline,25 mg,bacterial infection,Furosemide,78,once daily,Glenmark
+1361,Doxycycline,40 mg,diarrhea,Quetiapine,154,once weekly,Cipla
+1362,Doxycycline,50 mg,acid reflux,Furosemide,529,once every 8 hours,Aurobindo Pharma
+1363,Doxycycline,75 mg,blood thinning,Naproxen,229,once every 8 hours,Sun Pharma
+1364,Doxycycline,100 mg,seizure control,Tramadol,623,three times daily,Glenmark
+1365,Doxycycline,150 mg,diarrhea,Gliclazide,664,once daily,Aurobindo Pharma
+1366,Doxycycline,200 mg,acid reflux,Levetiracetam,542,once every 8 hours,Zydus Lifesciences
+1367,Doxycycline,250 mg,diarrhea,Levetiracetam,366,once every 8 hours,Zydus Lifesciences
+1368,Doxycycline,300 mg,cholesterol control,Doxycycline,85,once every 8 hours,Lupin
+1369,Doxycycline,400 mg,anxiety,Gabapentin,246,once daily,Zydus Lifesciences
+1370,Doxycycline,500 mg,diabetes,Olanzapine,890,once weekly,Zydus Lifesciences
+1371,Doxycycline,600 mg,inflammation,Amlodipine,693,once weekly,Glenmark
+1372,Doxycycline,750 mg,diarrhea,Carbamazepine,167,once every 8 hours,Cipla
+1373,Doxycycline,1 g,seizure control,Ibuprofen,635,twice daily,Dr. Reddy's
+1374,Doxycycline,2 g,bacterial infection,Carbamazepine,477,twice daily,Cipla
+1375,Doxycycline,125 mg/5 ml,pain relief,Salbutamol,294,three times daily,Torrent Pharma
+1376,Doxycycline,250 mg/5 ml,pain relief,Amlodipine,221,once every 8 hours,Glenmark
+1377,Doxycycline,500 mg/5 ml,blood thinning,Haloperidol,406,once weekly,Torrent Pharma
+1378,Clindamycin,5 mg,diabetes,Quetiapine,985,once daily,Alkem Labs
+1379,Clindamycin,10 mg,asthma,Pantoprazole,329,three times daily,Alkem Labs
+1380,Clindamycin,20 mg,inflammation,Ibuprofen,861,twice daily,Intas Pharma
+1381,Clindamycin,25 mg,bacterial infection,Omeprazole,470,three times daily,Torrent Pharma
+1382,Clindamycin,40 mg,fever,Clopidogrel,436,once every 8 hours,Zydus Lifesciences
+1383,Clindamycin,50 mg,anxiety,Ibuprofen,281,once daily,Zydus Lifesciences
+1384,Clindamycin,75 mg,pain relief,Salbutamol,406,twice daily,Alkem Labs
+1385,Clindamycin,100 mg,diarrhea,Salbutamol,11,three times daily,Cipla
+1386,Clindamycin,150 mg,allergy,Loratadine,258,three times daily,Aurobindo Pharma
+1387,Clindamycin,200 mg,seizure control,Omeprazole,485,three times daily,Alkem Labs
+1388,Clindamycin,250 mg,bacterial infection,Glimepiride,351,three times daily,Aurobindo Pharma
+1389,Clindamycin,300 mg,diabetes,Naproxen,937,three times daily,Intas Pharma
+1390,Clindamycin,400 mg,asthma,Metformin,693,three times daily,Torrent Pharma
+1391,Clindamycin,500 mg,diabetes,Desloratadine,151,once daily,Zydus Lifesciences
+1392,Clindamycin,600 mg,asthma,Carbamazepine,39,once daily,Zydus Lifesciences
+1393,Clindamycin,750 mg,diabetes,Diclofenac,844,three times daily,Glenmark
+1394,Clindamycin,1 g,inflammation,Pregabalin,974,once daily,Intas Pharma
+1395,Clindamycin,2 g,hypertension,Desloratadine,508,once daily,Sun Pharma
+1396,Clindamycin,125 mg/5 ml,cholesterol control,Aspirin,90,twice daily,Aurobindo Pharma
+1397,Clindamycin,250 mg/5 ml,anxiety,Budesonide,598,three times daily,Cipla
+1398,Clindamycin,500 mg/5 ml,diarrhea,Gabapentin,255,once daily,Dr. Reddy's
+1399,Metronidazole,5 mg,depression,Lamotrigine,120,once daily,Zydus Lifesciences
+1400,Metronidazole,10 mg,bacterial infection,Clopidogrel,373,once weekly,Zydus Lifesciences
+1401,Metronidazole,20 mg,fever,Aspirin,352,twice daily,Dr. Reddy's
+1402,Metronidazole,25 mg,fever,Domperidone,690,once daily,Torrent Pharma
+1403,Metronidazole,40 mg,seizure control,Loperamide,846,twice daily,Sun Pharma
+1404,Metronidazole,50 mg,seizure control,Salbutamol,163,once daily,Alkem Labs
+1405,Metronidazole,75 mg,acid reflux,Loratadine,266,once every 8 hours,Glenmark
+1406,Metronidazole,100 mg,diarrhea,Metformin,566,once weekly,Glenmark
+1407,Metronidazole,150 mg,asthma,Aspirin,827,once every 8 hours,Torrent Pharma
+1408,Metronidazole,200 mg,blood thinning,Olanzapine,75,once daily,Zydus Lifesciences
+1409,Metronidazole,250 mg,nausea and vomiting,Atorvastatin,786,twice daily,Alkem Labs
+1410,Metronidazole,300 mg,acid reflux,Pioglitazone,23,once every 8 hours,Lupin
+1411,Metronidazole,400 mg,asthma,Gliclazide,551,three times daily,Alkem Labs
+1412,Metronidazole,500 mg,fever,Diclofenac,563,twice daily,Glenmark
+1413,Metronidazole,600 mg,bacterial infection,Formoterol,753,twice daily,Zydus Lifesciences
+1414,Metronidazole,750 mg,inflammation,Atorvastatin,277,twice daily,Intas Pharma
+1415,Metronidazole,1 g,asthma,Amlodipine,342,twice daily,Intas Pharma
+1416,Metronidazole,2 g,bacterial infection,Pregabalin,395,once every 8 hours,Cipla
+1417,Metronidazole,125 mg/5 ml,diarrhea,Levocetirizine,517,once every 8 hours,Zydus Lifesciences
+1418,Metronidazole,250 mg/5 ml,hypertension,Desloratadine,529,once weekly,Aurobindo Pharma
+1419,Metronidazole,500 mg/5 ml,allergy,Salbutamol,371,twice daily,Dr. Reddy's
+1420,Aspirin,5 mg,diabetes,Pregabalin,931,once daily,Cipla
+1421,Aspirin,10 mg,anxiety,Valproate,555,three times daily,Dr. Reddy's
+1422,Aspirin,20 mg,diarrhea,Budesonide,495,once every 8 hours,Sun Pharma
+1423,Aspirin,25 mg,fever,Levocetirizine,550,once daily,Intas Pharma
+1424,Aspirin,40 mg,diarrhea,Ibuprofen,523,twice daily,Zydus Lifesciences
+1425,Aspirin,50 mg,allergy,Doxycycline,697,once daily,Dr. Reddy's
+1426,Aspirin,75 mg,nausea and vomiting,Furosemide,354,once daily,Zydus Lifesciences
+1427,Aspirin,100 mg,anxiety,Clopidogrel,859,three times daily,Dr. Reddy's
+1428,Aspirin,150 mg,hypertension,Furosemide,97,once weekly,Cipla
+1429,Aspirin,200 mg,depression,Levocetirizine,90,once weekly,Cipla
+1430,Aspirin,250 mg,hypertension,Insulin,325,once every 8 hours,Intas Pharma
+1431,Aspirin,300 mg,allergy,Fluoxetine,531,once weekly,Lupin
+1432,Aspirin,400 mg,seizure control,Desloratadine,789,once daily,Sun Pharma
+1433,Aspirin,500 mg,nausea and vomiting,Metformin,349,once every 8 hours,Intas Pharma
+1434,Aspirin,600 mg,seizure control,Metronidazole,249,once every 8 hours,Glenmark
+1435,Aspirin,750 mg,depression,Tramadol,42,three times daily,Alkem Labs
+1436,Aspirin,1 g,allergy,Gliclazide,105,twice daily,Torrent Pharma
+1437,Aspirin,2 g,asthma,Morphine,140,once every 8 hours,Sun Pharma
+1438,Aspirin,125 mg/5 ml,allergy,Montelukast,41,once daily,Intas Pharma
+1439,Aspirin,250 mg/5 ml,seizure control,Paracetamol,496,once weekly,Dr. Reddy's
+1440,Aspirin,500 mg/5 ml,blood thinning,Warfarin,689,twice daily,Glenmark
+1441,Clopidogrel,5 mg,allergy,Prednisone,290,twice daily,Torrent Pharma
+1442,Clopidogrel,10 mg,fever,Glimepiride,335,once daily,Cipla
+1443,Clopidogrel,20 mg,diabetes,Diclofenac,474,twice daily,Alkem Labs
+1444,Clopidogrel,25 mg,asthma,Furosemide,191,once every 8 hours,Sun Pharma
+1445,Clopidogrel,40 mg,acid reflux,Risperidone,245,three times daily,Torrent Pharma
+1446,Clopidogrel,50 mg,pain relief,Morphine,312,once weekly,Lupin
+1447,Clopidogrel,75 mg,pain relief,Azithromycin,202,once every 8 hours,Torrent Pharma
+1448,Clopidogrel,100 mg,diabetes,Tramadol,708,once daily,Intas Pharma
+1449,Clopidogrel,150 mg,cholesterol control,Metronidazole,354,once every 8 hours,Alkem Labs
+1450,Clopidogrel,200 mg,fever,Omeprazole,611,three times daily,Alkem Labs
+1451,Clopidogrel,250 mg,nausea and vomiting,Budesonide,82,three times daily,Aurobindo Pharma
+1452,Clopidogrel,300 mg,blood thinning,Warfarin,100,once every 8 hours,Intas Pharma
+1453,Clopidogrel,400 mg,diabetes,Tramadol,538,once every 8 hours,Dr. Reddy's
+1454,Clopidogrel,500 mg,bacterial infection,Tramadol,603,three times daily,Intas Pharma
+1455,Clopidogrel,600 mg,inflammation,Codeine,974,twice daily,Alkem Labs
+1456,Clopidogrel,750 mg,cholesterol control,Clopidogrel,891,three times daily,Zydus Lifesciences
+1457,Clopidogrel,1 g,asthma,Atorvastatin,960,once weekly,Intas Pharma
+1458,Clopidogrel,2 g,anxiety,Famotidine,822,twice daily,Zydus Lifesciences
+1459,Clopidogrel,125 mg/5 ml,bacterial infection,Risperidone,839,twice daily,Alkem Labs
+1460,Clopidogrel,250 mg/5 ml,blood thinning,Lamotrigine,840,once every 8 hours,Dr. Reddy's
+1461,Clopidogrel,500 mg/5 ml,hypertension,Tramadol,213,once daily,Lupin
+1462,Warfarin,5 mg,cholesterol control,Gabapentin,465,twice daily,Lupin
+1463,Warfarin,10 mg,cholesterol control,Pantoprazole,742,three times daily,Lupin
+1464,Warfarin,20 mg,anxiety,Amoxicillin,975,once weekly,Torrent Pharma
+1465,Warfarin,25 mg,cholesterol control,Glimepiride,279,once every 8 hours,Intas Pharma
+1466,Warfarin,40 mg,acid reflux,Pioglitazone,514,twice daily,Lupin
+1467,Warfarin,50 mg,pain relief,Famotidine,593,three times daily,Lupin
+1468,Warfarin,75 mg,seizure control,Gabapentin,488,once weekly,Dr. Reddy's
+1469,Warfarin,100 mg,nausea and vomiting,Sertraline,496,once every 8 hours,Glenmark
+1470,Warfarin,150 mg,asthma,Gabapentin,979,once weekly,Dr. Reddy's
+1471,Warfarin,200 mg,inflammation,Glimepiride,157,twice daily,Alkem Labs
+1472,Warfarin,250 mg,diarrhea,Gliclazide,963,twice daily,Cipla
+1473,Warfarin,300 mg,cholesterol control,Risperidone,240,twice daily,Intas Pharma
+1474,Warfarin,400 mg,asthma,Clopidogrel,941,once weekly,Intas Pharma
+1475,Warfarin,500 mg,seizure control,Pioglitazone,107,three times daily,Glenmark
+1476,Warfarin,600 mg,seizure control,Insulin,936,once weekly,Sun Pharma
+1477,Warfarin,750 mg,acid reflux,Metronidazole,625,three times daily,Zydus Lifesciences
+1478,Warfarin,1 g,inflammation,Risperidone,155,once weekly,Dr. Reddy's
+1479,Warfarin,2 g,diabetes,Levetiracetam,338,three times daily,Dr. Reddy's
+1480,Warfarin,125 mg/5 ml,depression,Gliclazide,835,twice daily,Torrent Pharma
+1481,Warfarin,250 mg/5 ml,acid reflux,Carbamazepine,375,once daily,Lupin
+1482,Warfarin,500 mg/5 ml,cholesterol control,Domperidone,522,once daily,Torrent Pharma
+1483,Insulin,5 mg,seizure control,Amoxicillin,733,twice daily,Glenmark
+1484,Insulin,10 mg,hypertension,Amlodipine,666,once every 8 hours,Alkem Labs
+1485,Insulin,20 mg,cholesterol control,Haloperidol,257,three times daily,Aurobindo Pharma
+1486,Insulin,25 mg,inflammation,Quetiapine,338,once weekly,Aurobindo Pharma
+1487,Insulin,40 mg,bacterial infection,Paracetamol,662,once every 8 hours,Dr. Reddy's
+1488,Insulin,50 mg,diabetes,Naproxen,298,once weekly,Sun Pharma
+1489,Insulin,75 mg,diarrhea,Ibuprofen,985,once weekly,Aurobindo Pharma
+1490,Insulin,100 mg,hypertension,Quetiapine,281,three times daily,Glenmark
+1491,Insulin,150 mg,pain relief,Valproate,89,once daily,Glenmark
+1492,Insulin,200 mg,diabetes,Sertraline,949,once every 8 hours,Dr. Reddy's
+1493,Insulin,250 mg,hypertension,Salbutamol,84,once weekly,Cipla
+1494,Insulin,300 mg,anxiety,Pioglitazone,287,once every 8 hours,Glenmark
+1495,Insulin,400 mg,nausea and vomiting,Furosemide,12,once weekly,Glenmark
+1496,Insulin,500 mg,acid reflux,Losartan,653,three times daily,Intas Pharma
+1497,Insulin,600 mg,nausea and vomiting,Azithromycin,593,three times daily,Lupin
+1498,Insulin,750 mg,seizure control,Budesonide,633,once daily,Glenmark
+1499,Insulin,1 g,diarrhea,Metronidazole,14,twice daily,Cipla
+1500,Insulin,2 g,anxiety,Formoterol,320,twice daily,Cipla
+1501,Insulin,125 mg/5 ml,fever,Gabapentin,473,twice daily,Torrent Pharma
+1502,Insulin,250 mg/5 ml,pain relief,Valproate,124,once daily,Glenmark
+1503,Insulin,500 mg/5 ml,fever,Diclofenac,258,once weekly,Dr. Reddy's
+1504,Glimepiride,5 mg,hypertension,Loratadine,421,once daily,Glenmark
+1505,Glimepiride,10 mg,anxiety,Cetirizine,696,once every 8 hours,Intas Pharma
+1506,Glimepiride,20 mg,nausea and vomiting,Famotidine,348,once weekly,Zydus Lifesciences
+1507,Glimepiride,25 mg,fever,Azithromycin,98,three times daily,Glenmark
+1508,Glimepiride,40 mg,depression,Aspirin,874,three times daily,Glenmark
+1509,Glimepiride,50 mg,depression,Cetirizine,419,once every 8 hours,Glenmark
+1510,Glimepiride,75 mg,depression,Diclofenac,911,twice daily,Aurobindo Pharma
+1511,Glimepiride,100 mg,acid reflux,Amoxicillin,443,twice daily,Glenmark
+1512,Glimepiride,150 mg,pain relief,Furosemide,448,once every 8 hours,Sun Pharma
+1513,Glimepiride,200 mg,anxiety,Ciprofloxacin,496,once weekly,Glenmark
+1514,Glimepiride,250 mg,inflammation,Budesonide,148,three times daily,Dr. Reddy's
+1515,Glimepiride,300 mg,blood thinning,Gabapentin,758,once daily,Torrent Pharma
+1516,Glimepiride,400 mg,cholesterol control,Famotidine,691,once every 8 hours,Dr. Reddy's
+1517,Glimepiride,500 mg,fever,Prednisone,848,twice daily,Torrent Pharma
+1518,Glimepiride,600 mg,allergy,Fluoxetine,127,once every 8 hours,Aurobindo Pharma
+1519,Glimepiride,750 mg,bacterial infection,Formoterol,379,once weekly,Alkem Labs
+1520,Glimepiride,1 g,diabetes,Paracetamol,850,once weekly,Torrent Pharma
+1521,Glimepiride,2 g,bacterial infection,Pioglitazone,615,three times daily,Dr. Reddy's
+1522,Glimepiride,125 mg/5 ml,seizure control,Carbamazepine,112,three times daily,Aurobindo Pharma
+1523,Glimepiride,250 mg/5 ml,fever,Desloratadine,85,once daily,Sun Pharma
+1524,Glimepiride,500 mg/5 ml,diarrhea,Budesonide,165,twice daily,Aurobindo Pharma
+1525,Gliclazide,5 mg,anxiety,Diclofenac,541,once weekly,Cipla
+1526,Gliclazide,10 mg,hypertension,Gliclazide,940,once weekly,Alkem Labs
+1527,Gliclazide,20 mg,depression,Gliclazide,43,once weekly,Sun Pharma
+1528,Gliclazide,25 mg,pain relief,Azithromycin,869,once every 8 hours,Intas Pharma
+1529,Gliclazide,40 mg,seizure control,Montelukast,499,three times daily,Intas Pharma
+1530,Gliclazide,50 mg,diarrhea,Glimepiride,840,once every 8 hours,Torrent Pharma
+1531,Gliclazide,75 mg,cholesterol control,Ibuprofen,217,three times daily,Cipla
+1532,Gliclazide,100 mg,diarrhea,Metronidazole,910,three times daily,Zydus Lifesciences
+1533,Gliclazide,150 mg,seizure control,Pantoprazole,632,once every 8 hours,Torrent Pharma
+1534,Gliclazide,200 mg,bacterial infection,Glimepiride,709,once weekly,Alkem Labs
+1535,Gliclazide,250 mg,bacterial infection,Clopidogrel,810,once weekly,Glenmark
+1536,Gliclazide,300 mg,pain relief,Glimepiride,718,once daily,Sun Pharma
+1537,Gliclazide,400 mg,blood thinning,Hydrochlorothiazide,972,twice daily,Sun Pharma
+1538,Gliclazide,500 mg,diabetes,Sertraline,955,once daily,Sun Pharma
+1539,Gliclazide,600 mg,asthma,Omeprazole,583,three times daily,Dr. Reddy's
+1540,Gliclazide,750 mg,nausea and vomiting,Losartan,417,once daily,Glenmark
+1541,Gliclazide,1 g,hypertension,Furosemide,132,once weekly,Lupin
+1542,Gliclazide,2 g,cholesterol control,Diclofenac,798,once every 8 hours,Alkem Labs
+1543,Gliclazide,125 mg/5 ml,nausea and vomiting,Doxycycline,276,twice daily,Intas Pharma
+1544,Gliclazide,250 mg/5 ml,diarrhea,Famotidine,895,once every 8 hours,Zydus Lifesciences
+1545,Gliclazide,500 mg/5 ml,seizure control,Paracetamol,832,once weekly,Alkem Labs
+1546,Pioglitazone,5 mg,hypertension,Lamotrigine,342,twice daily,Intas Pharma
+1547,Pioglitazone,10 mg,diabetes,Aspirin,617,once daily,Cipla
+1548,Pioglitazone,20 mg,cholesterol control,Metformin,821,twice daily,Alkem Labs
+1549,Pioglitazone,25 mg,diarrhea,Metformin,819,once every 8 hours,Aurobindo Pharma
+1550,Pioglitazone,40 mg,acid reflux,Amlodipine,158,twice daily,Intas Pharma
+1551,Pioglitazone,50 mg,inflammation,Gliclazide,826,three times daily,Intas Pharma
+1552,Pioglitazone,75 mg,blood thinning,Fluoxetine,322,three times daily,Dr. Reddy's
+1553,Pioglitazone,100 mg,allergy,Metronidazole,879,once every 8 hours,Zydus Lifesciences
+1554,Pioglitazone,150 mg,fever,Carbamazepine,644,three times daily,Cipla
+1555,Pioglitazone,200 mg,bacterial infection,Metronidazole,705,once daily,Intas Pharma
+1556,Pioglitazone,250 mg,hypertension,Clopidogrel,738,twice daily,Torrent Pharma
+1557,Pioglitazone,300 mg,pain relief,Hydrochlorothiazide,603,twice daily,Glenmark
+1558,Pioglitazone,400 mg,hypertension,Diclofenac,423,once daily,Alkem Labs
+1559,Pioglitazone,500 mg,asthma,Sertraline,400,once weekly,Zydus Lifesciences
+1560,Pioglitazone,600 mg,depression,Pioglitazone,593,once daily,Alkem Labs
+1561,Pioglitazone,750 mg,allergy,Sertraline,67,three times daily,Torrent Pharma
+1562,Pioglitazone,1 g,allergy,Valproate,102,once weekly,Lupin
+1563,Pioglitazone,2 g,depression,Montelukast,34,three times daily,Alkem Labs
+1564,Pioglitazone,125 mg/5 ml,hypertension,Glimepiride,393,once every 8 hours,Alkem Labs
+1565,Pioglitazone,250 mg/5 ml,fever,Losartan,957,once every 8 hours,Intas Pharma
+1566,Pioglitazone,500 mg/5 ml,depression,Haloperidol,785,once daily,Aurobindo Pharma
+1567,Furosemide,5 mg,inflammation,Lamotrigine,456,three times daily,Alkem Labs
+1568,Furosemide,10 mg,bacterial infection,Warfarin,167,twice daily,Torrent Pharma
+1569,Furosemide,20 mg,allergy,Formoterol,503,once daily,Cipla
+1570,Furosemide,25 mg,hypertension,Clopidogrel,745,three times daily,Cipla
+1571,Furosemide,40 mg,fever,Glimepiride,280,once weekly,Cipla
+1572,Furosemide,50 mg,asthma,Ibuprofen,338,three times daily,Sun Pharma
+1573,Furosemide,75 mg,diarrhea,Gliclazide,838,once weekly,Sun Pharma
+1574,Furosemide,100 mg,diarrhea,Azithromycin,65,three times daily,Dr. Reddy's
+1575,Furosemide,150 mg,cholesterol control,Metformin,963,twice daily,Zydus Lifesciences
+1576,Furosemide,200 mg,hypertension,Prednisone,779,three times daily,Cipla
+1577,Furosemide,250 mg,nausea and vomiting,Insulin,753,twice daily,Aurobindo Pharma
+1578,Furosemide,300 mg,nausea and vomiting,Pantoprazole,621,once every 8 hours,Dr. Reddy's
+1579,Furosemide,400 mg,diabetes,Budesonide,294,once every 8 hours,Alkem Labs
+1580,Furosemide,500 mg,bacterial infection,Amoxicillin,198,once every 8 hours,Intas Pharma
+1581,Furosemide,600 mg,inflammation,Atorvastatin,514,once daily,Glenmark
+1582,Furosemide,750 mg,cholesterol control,Metronidazole,757,once every 8 hours,Alkem Labs
+1583,Furosemide,1 g,pain relief,Fluoxetine,841,once weekly,Dr. Reddy's
+1584,Furosemide,2 g,asthma,Warfarin,119,three times daily,Sun Pharma
+1585,Furosemide,125 mg/5 ml,seizure control,Loratadine,853,once every 8 hours,Dr. Reddy's
+1586,Furosemide,250 mg/5 ml,nausea and vomiting,Quetiapine,948,once every 8 hours,Zydus Lifesciences
+1587,Furosemide,500 mg/5 ml,fever,Ondansetron,617,twice daily,Dr. Reddy's
+1588,Spironolactone,5 mg,fever,Amoxicillin,766,once every 8 hours,Sun Pharma
+1589,Spironolactone,10 mg,diarrhea,Hydrochlorothiazide,458,twice daily,Dr. Reddy's
+1590,Spironolactone,20 mg,inflammation,Carbamazepine,18,twice daily,Aurobindo Pharma
+1591,Spironolactone,25 mg,allergy,Quetiapine,782,once daily,Zydus Lifesciences
+1592,Spironolactone,40 mg,diarrhea,Doxycycline,701,once weekly,Cipla
+1593,Spironolactone,50 mg,diabetes,Atorvastatin,598,twice daily,Torrent Pharma
+1594,Spironolactone,75 mg,allergy,Quetiapine,943,once daily,Cipla
+1595,Spironolactone,100 mg,bacterial infection,Glimepiride,175,twice daily,Dr. Reddy's
+1596,Spironolactone,150 mg,anxiety,Morphine,95,once weekly,Dr. Reddy's
+1597,Spironolactone,200 mg,cholesterol control,Amoxicillin,868,three times daily,Alkem Labs
+1598,Spironolactone,250 mg,depression,Omeprazole,275,twice daily,Alkem Labs
+1599,Spironolactone,300 mg,blood thinning,Levocetirizine,556,once daily,Intas Pharma
+1600,Spironolactone,400 mg,cholesterol control,Cetirizine,319,three times daily,Intas Pharma
+1601,Spironolactone,500 mg,diabetes,Fluoxetine,223,twice daily,Intas Pharma
+1602,Spironolactone,600 mg,blood thinning,Valproate,816,once daily,Lupin
+1603,Spironolactone,750 mg,cholesterol control,Quetiapine,90,once every 8 hours,Intas Pharma
+1604,Spironolactone,1 g,inflammation,Paracetamol,950,three times daily,Cipla
+1605,Spironolactone,2 g,anxiety,Spironolactone,420,once weekly,Aurobindo Pharma
+1606,Spironolactone,125 mg/5 ml,nausea and vomiting,Lamotrigine,160,three times daily,Glenmark
+1607,Spironolactone,250 mg/5 ml,seizure control,Azithromycin,643,once weekly,Cipla
+1608,Spironolactone,500 mg/5 ml,anxiety,Doxycycline,397,three times daily,Torrent Pharma
+1609,Hydrochlorothiazide,5 mg,nausea and vomiting,Paracetamol,518,once daily,Zydus Lifesciences
+1610,Hydrochlorothiazide,10 mg,diabetes,Montelukast,513,once daily,Sun Pharma
+1611,Hydrochlorothiazide,20 mg,allergy,Metronidazole,713,once daily,Zydus Lifesciences
+1612,Hydrochlorothiazide,25 mg,diarrhea,Valproate,966,once weekly,Cipla
+1613,Hydrochlorothiazide,40 mg,depression,Doxycycline,192,once weekly,Aurobindo Pharma
+1614,Hydrochlorothiazide,50 mg,fever,Levetiracetam,758,once weekly,Cipla
+1615,Hydrochlorothiazide,75 mg,blood thinning,Insulin,265,once every 8 hours,Torrent Pharma
+1616,Hydrochlorothiazide,100 mg,diarrhea,Famotidine,152,once daily,Sun Pharma
+1617,Hydrochlorothiazide,150 mg,fever,Azithromycin,749,once daily,Glenmark
+1618,Hydrochlorothiazide,200 mg,nausea and vomiting,Gabapentin,161,once daily,Dr. Reddy's
+1619,Hydrochlorothiazide,250 mg,hypertension,Glimepiride,879,twice daily,Lupin
+1620,Hydrochlorothiazide,300 mg,asthma,Paracetamol,819,three times daily,Aurobindo Pharma
+1621,Hydrochlorothiazide,400 mg,hypertension,Levetiracetam,204,once weekly,Dr. Reddy's
+1622,Hydrochlorothiazide,500 mg,anxiety,Famotidine,466,three times daily,Zydus Lifesciences
+1623,Hydrochlorothiazide,600 mg,pain relief,Amlodipine,543,twice daily,Aurobindo Pharma
+1624,Hydrochlorothiazide,750 mg,allergy,Lamotrigine,594,three times daily,Cipla
+1625,Hydrochlorothiazide,1 g,acid reflux,Levetiracetam,255,three times daily,Sun Pharma
+1626,Hydrochlorothiazide,2 g,anxiety,Sertraline,943,once weekly,Sun Pharma
+1627,Hydrochlorothiazide,125 mg/5 ml,acid reflux,Lamotrigine,36,three times daily,Intas Pharma
+1628,Hydrochlorothiazide,250 mg/5 ml,cholesterol control,Metronidazole,136,once every 8 hours,Alkem Labs
+1629,Hydrochlorothiazide,500 mg/5 ml,diabetes,Loratadine,669,three times daily,Intas Pharma
+1630,Salbutamol,5 mg,depression,Naproxen,666,three times daily,Aurobindo Pharma
+1631,Salbutamol,10 mg,allergy,Clopidogrel,682,once daily,Alkem Labs
+1632,Salbutamol,20 mg,asthma,Budesonide,294,twice daily,Zydus Lifesciences
+1633,Salbutamol,25 mg,acid reflux,Haloperidol,522,once daily,Zydus Lifesciences
+1634,Salbutamol,40 mg,anxiety,Loperamide,206,once daily,Torrent Pharma
+1635,Salbutamol,50 mg,diarrhea,Amoxicillin,702,once every 8 hours,Cipla
+1636,Salbutamol,75 mg,seizure control,Metronidazole,867,once every 8 hours,Intas Pharma
+1637,Salbutamol,100 mg,cholesterol control,Pregabalin,628,once every 8 hours,Lupin
+1638,Salbutamol,150 mg,allergy,Sertraline,784,once weekly,Glenmark
+1639,Salbutamol,200 mg,nausea and vomiting,Codeine,318,three times daily,Zydus Lifesciences
+1640,Salbutamol,250 mg,bacterial infection,Ondansetron,698,twice daily,Dr. Reddy's
+1641,Salbutamol,300 mg,nausea and vomiting,Doxycycline,801,twice daily,Zydus Lifesciences
+1642,Salbutamol,400 mg,asthma,Sertraline,220,three times daily,Glenmark
+1643,Salbutamol,500 mg,diarrhea,Omeprazole,803,once weekly,Dr. Reddy's
+1644,Salbutamol,600 mg,depression,Ibuprofen,537,once weekly,Dr. Reddy's
+1645,Salbutamol,750 mg,depression,Loperamide,84,twice daily,Dr. Reddy's
+1646,Salbutamol,1 g,diabetes,Pantoprazole,136,once weekly,Torrent Pharma
+1647,Salbutamol,2 g,hypertension,Azithromycin,484,once every 8 hours,Sun Pharma
+1648,Salbutamol,125 mg/5 ml,nausea and vomiting,Famotidine,377,once every 8 hours,Sun Pharma
+1649,Salbutamol,250 mg/5 ml,allergy,Ibuprofen,431,three times daily,Alkem Labs
+1650,Salbutamol,500 mg/5 ml,pain relief,Desloratadine,134,twice daily,Torrent Pharma
+1651,Budesonide,5 mg,allergy,Budesonide,670,once every 8 hours,Glenmark
+1652,Budesonide,10 mg,blood thinning,Metronidazole,813,once daily,Dr. Reddy's
+1653,Budesonide,20 mg,hypertension,Naproxen,437,three times daily,Aurobindo Pharma
+1654,Budesonide,25 mg,bacterial infection,Losartan,950,once weekly,Alkem Labs
+1655,Budesonide,40 mg,blood thinning,Loratadine,834,three times daily,Torrent Pharma
+1656,Budesonide,50 mg,inflammation,Loperamide,726,once every 8 hours,Intas Pharma
+1657,Budesonide,75 mg,cholesterol control,Loratadine,952,twice daily,Dr. Reddy's
+1658,Budesonide,100 mg,depression,Sertraline,769,three times daily,Dr. Reddy's
+1659,Budesonide,150 mg,inflammation,Famotidine,520,once weekly,Cipla
+1660,Budesonide,200 mg,asthma,Carbamazepine,714,three times daily,Intas Pharma
+1661,Budesonide,250 mg,depression,Clindamycin,58,once daily,Aurobindo Pharma
+1662,Budesonide,300 mg,hypertension,Cetirizine,97,once daily,Aurobindo Pharma
+1663,Budesonide,400 mg,bacterial infection,Haloperidol,693,twice daily,Lupin
+1664,Budesonide,500 mg,inflammation,Fluoxetine,857,three times daily,Sun Pharma
+1665,Budesonide,600 mg,blood thinning,Levetiracetam,34,once every 8 hours,Lupin
+1666,Budesonide,750 mg,diabetes,Gabapentin,331,twice daily,Zydus Lifesciences
+1667,Budesonide,1 g,pain relief,Pregabalin,963,three times daily,Sun Pharma
+1668,Budesonide,2 g,inflammation,Desloratadine,771,once daily,Torrent Pharma
+1669,Budesonide,125 mg/5 ml,bacterial infection,Loperamide,580,once weekly,Sun Pharma
+1670,Budesonide,250 mg/5 ml,diarrhea,Loperamide,482,once daily,Cipla
+1671,Budesonide,500 mg/5 ml,fever,Pregabalin,560,three times daily,Aurobindo Pharma
+1672,Formoterol,5 mg,depression,Ciprofloxacin,502,three times daily,Intas Pharma
+1673,Formoterol,10 mg,nausea and vomiting,Clopidogrel,150,three times daily,Torrent Pharma
+1674,Formoterol,20 mg,diarrhea,Formoterol,213,once daily,Torrent Pharma
+1675,Formoterol,25 mg,pain relief,Loratadine,339,once every 8 hours,Zydus Lifesciences
+1676,Formoterol,40 mg,allergy,Naproxen,284,three times daily,Lupin
+1677,Formoterol,50 mg,fever,Glimepiride,57,twice daily,Torrent Pharma
+1678,Formoterol,75 mg,acid reflux,Loratadine,833,once daily,Lupin
+1679,Formoterol,100 mg,asthma,Montelukast,80,three times daily,Zydus Lifesciences
+1680,Formoterol,150 mg,diarrhea,Clindamycin,966,once weekly,Zydus Lifesciences
+1681,Formoterol,200 mg,acid reflux,Loperamide,224,once weekly,Dr. Reddy's
+1682,Formoterol,250 mg,pain relief,Quetiapine,517,once every 8 hours,Alkem Labs
+1683,Formoterol,300 mg,hypertension,Losartan,721,twice daily,Cipla
+1684,Formoterol,400 mg,nausea and vomiting,Spironolactone,680,once every 8 hours,Intas Pharma
+1685,Formoterol,500 mg,depression,Aspirin,741,three times daily,Dr. Reddy's
+1686,Formoterol,600 mg,depression,Diclofenac,449,once daily,Cipla
+1687,Formoterol,750 mg,diabetes,Warfarin,384,once weekly,Glenmark
+1688,Formoterol,1 g,hypertension,Loratadine,361,twice daily,Lupin
+1689,Formoterol,2 g,seizure control,Sertraline,779,three times daily,Dr. Reddy's
+1690,Formoterol,125 mg/5 ml,diarrhea,Desloratadine,440,once every 8 hours,Torrent Pharma
+1691,Formoterol,250 mg/5 ml,bacterial infection,Gabapentin,493,twice daily,Dr. Reddy's
+1692,Formoterol,500 mg/5 ml,bacterial infection,Ondansetron,710,twice daily,Sun Pharma
+1693,Loratadine,5 mg,hypertension,Glimepiride,706,once daily,Aurobindo Pharma
+1694,Loratadine,10 mg,depression,Loratadine,892,twice daily,Glenmark
+1695,Loratadine,20 mg,nausea and vomiting,Levocetirizine,236,once weekly,Intas Pharma
+1696,Loratadine,25 mg,asthma,Olanzapine,518,once daily,Alkem Labs
+1697,Loratadine,40 mg,hypertension,Azithromycin,333,three times daily,Alkem Labs
+1698,Loratadine,50 mg,blood thinning,Levetiracetam,596,three times daily,Glenmark
+1699,Loratadine,75 mg,acid reflux,Formoterol,651,three times daily,Dr. Reddy's
+1700,Loratadine,100 mg,diarrhea,Carbamazepine,968,once weekly,Torrent Pharma
+1701,Loratadine,150 mg,depression,Pantoprazole,556,once daily,Zydus Lifesciences
+1702,Loratadine,200 mg,seizure control,Lamotrigine,269,once weekly,Aurobindo Pharma
+1703,Loratadine,250 mg,diarrhea,Amlodipine,656,once every 8 hours,Glenmark
+1704,Loratadine,300 mg,inflammation,Sertraline,999,three times daily,Torrent Pharma
+1705,Loratadine,400 mg,cholesterol control,Ibuprofen,304,once weekly,Glenmark
+1706,Loratadine,500 mg,asthma,Lamotrigine,788,once daily,Dr. Reddy's
+1707,Loratadine,600 mg,anxiety,Montelukast,524,once every 8 hours,Zydus Lifesciences
+1708,Loratadine,750 mg,diarrhea,Furosemide,278,once every 8 hours,Dr. Reddy's
+1709,Loratadine,1 g,diarrhea,Levetiracetam,588,once daily,Glenmark
+1710,Loratadine,2 g,diabetes,Domperidone,124,once every 8 hours,Alkem Labs
+1711,Loratadine,125 mg/5 ml,diabetes,Lamotrigine,343,once every 8 hours,Torrent Pharma
+1712,Loratadine,250 mg/5 ml,anxiety,Famotidine,661,once every 8 hours,Lupin
+1713,Loratadine,500 mg/5 ml,fever,Pregabalin,254,once every 8 hours,Lupin
+1714,Desloratadine,5 mg,fever,Amlodipine,298,once weekly,Glenmark
+1715,Desloratadine,10 mg,asthma,Carbamazepine,166,once daily,Intas Pharma
+1716,Desloratadine,20 mg,nausea and vomiting,Gabapentin,745,once weekly,Dr. Reddy's
+1717,Desloratadine,25 mg,inflammation,Ibuprofen,388,three times daily,Sun Pharma
+1718,Desloratadine,40 mg,depression,Glimepiride,600,once weekly,Aurobindo Pharma
+1719,Desloratadine,50 mg,pain relief,Ibuprofen,758,twice daily,Alkem Labs
+1720,Desloratadine,75 mg,diabetes,Ciprofloxacin,846,twice daily,Cipla
+1721,Desloratadine,100 mg,inflammation,Amoxicillin,115,twice daily,Torrent Pharma
+1722,Desloratadine,150 mg,inflammation,Ciprofloxacin,888,once every 8 hours,Intas Pharma
+1723,Desloratadine,200 mg,fever,Aspirin,894,three times daily,Intas Pharma
+1724,Desloratadine,250 mg,acid reflux,Loperamide,269,once every 8 hours,Lupin
+1725,Desloratadine,300 mg,nausea and vomiting,Ibuprofen,497,three times daily,Alkem Labs
+1726,Desloratadine,400 mg,fever,Glimepiride,240,three times daily,Zydus Lifesciences
+1727,Desloratadine,500 mg,fever,Insulin,28,twice daily,Sun Pharma
+1728,Desloratadine,600 mg,bacterial infection,Levocetirizine,547,once daily,Zydus Lifesciences
+1729,Desloratadine,750 mg,fever,Olanzapine,490,once daily,Lupin
+1730,Desloratadine,1 g,inflammation,Warfarin,520,once daily,Alkem Labs
+1731,Desloratadine,2 g,diabetes,Codeine,667,three times daily,Glenmark
+1732,Desloratadine,125 mg/5 ml,cholesterol control,Morphine,80,twice daily,Dr. Reddy's
+1733,Desloratadine,250 mg/5 ml,nausea and vomiting,Amlodipine,608,once every 8 hours,Intas Pharma
+1734,Desloratadine,500 mg/5 ml,bacterial infection,Valproate,429,twice daily,Torrent Pharma
+1735,Famotidine,5 mg,depression,Risperidone,89,once weekly,Alkem Labs
+1736,Famotidine,10 mg,seizure control,Diclofenac,353,once every 8 hours,Lupin
+1737,Famotidine,20 mg,anxiety,Budesonide,200,once every 8 hours,Lupin
+1738,Famotidine,25 mg,blood thinning,Prednisone,916,once weekly,Lupin
+1739,Famotidine,40 mg,pain relief,Sertraline,573,twice daily,Alkem Labs
+1740,Famotidine,50 mg,cholesterol control,Salbutamol,233,twice daily,Alkem Labs
+1741,Famotidine,75 mg,asthma,Metformin,905,three times daily,Torrent Pharma
+1742,Famotidine,100 mg,diabetes,Cetirizine,453,once every 8 hours,Aurobindo Pharma
+1743,Famotidine,150 mg,seizure control,Ibuprofen,601,three times daily,Zydus Lifesciences
+1744,Famotidine,200 mg,bacterial infection,Valproate,843,once daily,Zydus Lifesciences
+1745,Famotidine,250 mg,fever,Naproxen,699,three times daily,Cipla
+1746,Famotidine,300 mg,inflammation,Furosemide,692,once every 8 hours,Zydus Lifesciences
+1747,Famotidine,400 mg,fever,Amoxicillin,676,once weekly,Zydus Lifesciences
+1748,Famotidine,500 mg,nausea and vomiting,Tramadol,72,once every 8 hours,Cipla
+1749,Famotidine,600 mg,asthma,Montelukast,901,three times daily,Aurobindo Pharma
+1750,Famotidine,750 mg,anxiety,Gliclazide,231,once every 8 hours,Aurobindo Pharma
+1751,Famotidine,1 g,anxiety,Domperidone,369,once every 8 hours,Sun Pharma
+1752,Famotidine,2 g,nausea and vomiting,Atorvastatin,39,twice daily,Sun Pharma
+1753,Famotidine,125 mg/5 ml,allergy,Loperamide,167,three times daily,Glenmark
+1754,Famotidine,250 mg/5 ml,depression,Loperamide,113,three times daily,Sun Pharma
+1755,Famotidine,500 mg/5 ml,diabetes,Metformin,116,twice daily,Dr. Reddy's
+1756,Domperidone,5 mg,bacterial infection,Warfarin,130,once weekly,Cipla
+1757,Domperidone,10 mg,depression,Warfarin,752,once daily,Aurobindo Pharma
+1758,Domperidone,20 mg,hypertension,Pregabalin,211,once every 8 hours,Torrent Pharma
+1759,Domperidone,25 mg,pain relief,Cetirizine,833,three times daily,Alkem Labs
+1760,Domperidone,40 mg,seizure control,Loperamide,477,once every 8 hours,Cipla
+1761,Domperidone,50 mg,diabetes,Losartan,501,twice daily,Sun Pharma
+1762,Domperidone,75 mg,diarrhea,Loperamide,999,once daily,Zydus Lifesciences
+1763,Domperidone,100 mg,depression,Domperidone,767,once weekly,Lupin
+1764,Domperidone,150 mg,acid reflux,Codeine,780,once every 8 hours,Cipla
+1765,Domperidone,200 mg,inflammation,Metformin,424,once every 8 hours,Dr. Reddy's
+1766,Domperidone,250 mg,nausea and vomiting,Gabapentin,599,once weekly,Torrent Pharma
+1767,Domperidone,300 mg,pain relief,Diclofenac,697,once every 8 hours,Dr. Reddy's
+1768,Domperidone,400 mg,seizure control,Gabapentin,697,twice daily,Cipla
+1769,Domperidone,500 mg,diarrhea,Pioglitazone,34,twice daily,Lupin
+1770,Domperidone,600 mg,cholesterol control,Pregabalin,806,once weekly,Alkem Labs
+1771,Domperidone,750 mg,bacterial infection,Cetirizine,414,once every 8 hours,Sun Pharma
+1772,Domperidone,1 g,anxiety,Azithromycin,670,once weekly,Alkem Labs
+1773,Domperidone,2 g,blood thinning,Atorvastatin,265,twice daily,Glenmark
+1774,Domperidone,125 mg/5 ml,acid reflux,Clindamycin,784,once daily,Glenmark
+1775,Domperidone,250 mg/5 ml,fever,Aspirin,729,three times daily,Glenmark
+1776,Domperidone,500 mg/5 ml,fever,Tramadol,820,once every 8 hours,Aurobindo Pharma
+1777,Ondansetron,5 mg,inflammation,Prednisone,228,once weekly,Alkem Labs
+1778,Ondansetron,10 mg,inflammation,Sertraline,560,three times daily,Dr. Reddy's
+1779,Ondansetron,20 mg,depression,Pantoprazole,406,twice daily,Cipla
+1780,Ondansetron,25 mg,diabetes,Carbamazepine,900,twice daily,Lupin
+1781,Ondansetron,40 mg,seizure control,Montelukast,772,three times daily,Sun Pharma
+1782,Ondansetron,50 mg,blood thinning,Naproxen,846,once weekly,Glenmark
+1783,Ondansetron,75 mg,asthma,Ciprofloxacin,10,once every 8 hours,Lupin
+1784,Ondansetron,100 mg,blood thinning,Pantoprazole,693,once weekly,Lupin
+1785,Ondansetron,150 mg,diarrhea,Risperidone,51,once every 8 hours,Lupin
+1786,Ondansetron,200 mg,anxiety,Azithromycin,42,twice daily,Zydus Lifesciences
+1787,Ondansetron,250 mg,blood thinning,Valproate,620,twice daily,Torrent Pharma
+1788,Ondansetron,300 mg,blood thinning,Cetirizine,927,once daily,Lupin
+1789,Ondansetron,400 mg,acid reflux,Warfarin,360,twice daily,Zydus Lifesciences
+1790,Ondansetron,500 mg,pain relief,Furosemide,123,three times daily,Sun Pharma
+1791,Ondansetron,600 mg,bacterial infection,Risperidone,150,twice daily,Lupin
+1792,Ondansetron,750 mg,blood thinning,Salbutamol,376,once every 8 hours,Alkem Labs
+1793,Ondansetron,1 g,inflammation,Budesonide,734,three times daily,Sun Pharma
+1794,Ondansetron,2 g,seizure control,Levocetirizine,645,twice daily,Aurobindo Pharma
+1795,Ondansetron,125 mg/5 ml,anxiety,Lamotrigine,380,once daily,Glenmark
+1796,Ondansetron,250 mg/5 ml,allergy,Famotidine,251,once daily,Cipla
+1797,Ondansetron,500 mg/5 ml,blood thinning,Olanzapine,219,once weekly,Dr. Reddy's
+1798,Loperamide,5 mg,allergy,Furosemide,500,once every 8 hours,Intas Pharma
+1799,Loperamide,10 mg,bacterial infection,Domperidone,332,once weekly,Cipla
+1800,Loperamide,20 mg,blood thinning,Ibuprofen,446,once every 8 hours,Intas Pharma
+1801,Loperamide,25 mg,blood thinning,Loratadine,114,once weekly,Intas Pharma
+1802,Loperamide,40 mg,diabetes,Aspirin,413,once daily,Intas Pharma
+1803,Loperamide,50 mg,hypertension,Morphine,838,three times daily,Torrent Pharma
+1804,Loperamide,75 mg,blood thinning,Clopidogrel,359,twice daily,Glenmark
+1805,Loperamide,100 mg,fever,Metformin,705,once weekly,Intas Pharma
+1806,Loperamide,150 mg,inflammation,Warfarin,325,once daily,Lupin
+1807,Loperamide,200 mg,diabetes,Famotidine,997,twice daily,Aurobindo Pharma
+1808,Loperamide,250 mg,seizure control,Gliclazide,878,once daily,Lupin
+1809,Loperamide,300 mg,diabetes,Quetiapine,551,once daily,Dr. Reddy's
+1810,Loperamide,400 mg,fever,Naproxen,424,once daily,Glenmark
+1811,Loperamide,500 mg,fever,Valproate,398,twice daily,Dr. Reddy's
+1812,Loperamide,600 mg,blood thinning,Metformin,602,three times daily,Lupin
+1813,Loperamide,750 mg,inflammation,Furosemide,815,three times daily,Sun Pharma
+1814,Loperamide,1 g,seizure control,Amlodipine,585,once weekly,Sun Pharma
+1815,Loperamide,2 g,blood thinning,Sertraline,283,once every 8 hours,Lupin
+1816,Loperamide,125 mg/5 ml,pain relief,Fluoxetine,156,once weekly,Intas Pharma
+1817,Loperamide,250 mg/5 ml,allergy,Furosemide,732,once daily,Zydus Lifesciences
+1818,Loperamide,500 mg/5 ml,blood thinning,Cetirizine,845,twice daily,Torrent Pharma
+1819,Diclofenac,5 mg,allergy,Loratadine,643,once weekly,Alkem Labs
+1820,Diclofenac,10 mg,nausea and vomiting,Pioglitazone,802,once every 8 hours,Alkem Labs
+1821,Diclofenac,20 mg,diabetes,Amlodipine,76,once weekly,Torrent Pharma
+1822,Diclofenac,25 mg,hypertension,Valproate,382,once every 8 hours,Torrent Pharma
+1823,Diclofenac,40 mg,anxiety,Pantoprazole,524,once every 8 hours,Cipla
+1824,Diclofenac,50 mg,bacterial infection,Losartan,647,once weekly,Aurobindo Pharma
+1825,Diclofenac,75 mg,acid reflux,Formoterol,92,once every 8 hours,Cipla
+1826,Diclofenac,100 mg,asthma,Metronidazole,43,once daily,Sun Pharma
+1827,Diclofenac,150 mg,nausea and vomiting,Pioglitazone,268,once weekly,Sun Pharma
+1828,Diclofenac,200 mg,seizure control,Morphine,133,once daily,Dr. Reddy's
+1829,Diclofenac,250 mg,diabetes,Glimepiride,782,once every 8 hours,Sun Pharma
+1830,Diclofenac,300 mg,nausea and vomiting,Pioglitazone,343,once every 8 hours,Sun Pharma
+1831,Diclofenac,400 mg,cholesterol control,Valproate,696,three times daily,Intas Pharma
+1832,Diclofenac,500 mg,nausea and vomiting,Diclofenac,394,once weekly,Glenmark
+1833,Diclofenac,600 mg,anxiety,Famotidine,230,three times daily,Alkem Labs
+1834,Diclofenac,750 mg,depression,Paracetamol,66,once daily,Dr. Reddy's
+1835,Diclofenac,1 g,inflammation,Aspirin,145,twice daily,Lupin
+1836,Diclofenac,2 g,depression,Gliclazide,273,twice daily,Glenmark
+1837,Diclofenac,125 mg/5 ml,diabetes,Ibuprofen,798,three times daily,Aurobindo Pharma
+1838,Diclofenac,250 mg/5 ml,hypertension,Risperidone,664,three times daily,Torrent Pharma
+1839,Diclofenac,500 mg/5 ml,pain relief,Amlodipine,593,three times daily,Torrent Pharma
+1840,Naproxen,5 mg,depression,Domperidone,910,once every 8 hours,Aurobindo Pharma
+1841,Naproxen,10 mg,acid reflux,Warfarin,620,once daily,Lupin
+1842,Naproxen,20 mg,bacterial infection,Pregabalin,148,once daily,Dr. Reddy's
+1843,Naproxen,25 mg,acid reflux,Atorvastatin,204,once every 8 hours,Alkem Labs
+1844,Naproxen,40 mg,fever,Fluoxetine,38,twice daily,Torrent Pharma
+1845,Naproxen,50 mg,fever,Quetiapine,371,once every 8 hours,Sun Pharma
+1846,Naproxen,75 mg,nausea and vomiting,Pregabalin,742,twice daily,Zydus Lifesciences
+1847,Naproxen,100 mg,bacterial infection,Amoxicillin,112,once every 8 hours,Torrent Pharma
+1848,Naproxen,150 mg,asthma,Carbamazepine,298,once daily,Alkem Labs
+1849,Naproxen,200 mg,nausea and vomiting,Metronidazole,211,once every 8 hours,Sun Pharma
+1850,Naproxen,250 mg,diabetes,Fluoxetine,657,once weekly,Glenmark
+1851,Naproxen,300 mg,hypertension,Ibuprofen,157,three times daily,Torrent Pharma
+1852,Naproxen,400 mg,diabetes,Azithromycin,354,three times daily,Zydus Lifesciences
+1853,Naproxen,500 mg,bacterial infection,Tramadol,221,twice daily,Alkem Labs
+1854,Naproxen,600 mg,depression,Ciprofloxacin,951,once daily,Glenmark
+1855,Naproxen,750 mg,diabetes,Clopidogrel,594,once weekly,Torrent Pharma
+1856,Naproxen,1 g,diabetes,Gabapentin,86,three times daily,Intas Pharma
+1857,Naproxen,2 g,pain relief,Haloperidol,531,once daily,Cipla
+1858,Naproxen,125 mg/5 ml,depression,Furosemide,237,once every 8 hours,Aurobindo Pharma
+1859,Naproxen,250 mg/5 ml,allergy,Quetiapine,846,once every 8 hours,Torrent Pharma
+1860,Naproxen,500 mg/5 ml,blood thinning,Famotidine,633,once weekly,Aurobindo Pharma
+1861,Tramadol,5 mg,asthma,Pioglitazone,527,once daily,Torrent Pharma
+1862,Tramadol,10 mg,blood thinning,Omeprazole,139,once every 8 hours,Sun Pharma
+1863,Tramadol,20 mg,cholesterol control,Amlodipine,847,once daily,Cipla
+1864,Tramadol,25 mg,inflammation,Loperamide,716,once every 8 hours,Cipla
+1865,Tramadol,40 mg,blood thinning,Quetiapine,26,once daily,Alkem Labs
+1866,Tramadol,50 mg,acid reflux,Levetiracetam,980,three times daily,Intas Pharma
+1867,Tramadol,75 mg,diabetes,Valproate,14,twice daily,Intas Pharma
+1868,Tramadol,100 mg,anxiety,Codeine,583,once weekly,Torrent Pharma
+1869,Tramadol,150 mg,fever,Lamotrigine,460,three times daily,Sun Pharma
+1870,Tramadol,200 mg,nausea and vomiting,Levocetirizine,484,once daily,Zydus Lifesciences
+1871,Tramadol,250 mg,nausea and vomiting,Fluoxetine,611,once daily,Cipla
+1872,Tramadol,300 mg,nausea and vomiting,Fluoxetine,651,twice daily,Cipla
+1873,Tramadol,400 mg,fever,Haloperidol,820,once weekly,Aurobindo Pharma
+1874,Tramadol,500 mg,asthma,Cetirizine,856,once weekly,Torrent Pharma
+1875,Tramadol,600 mg,nausea and vomiting,Lamotrigine,507,three times daily,Aurobindo Pharma
+1876,Tramadol,750 mg,allergy,Amoxicillin,941,once every 8 hours,Dr. Reddy's
+1877,Tramadol,1 g,blood thinning,Loratadine,72,once daily,Intas Pharma
+1878,Tramadol,2 g,blood thinning,Insulin,728,twice daily,Glenmark
+1879,Tramadol,125 mg/5 ml,depression,Levocetirizine,976,three times daily,Cipla
+1880,Tramadol,250 mg/5 ml,fever,Pregabalin,620,once daily,Sun Pharma
+1881,Tramadol,500 mg/5 ml,nausea and vomiting,Amlodipine,515,twice daily,Aurobindo Pharma
+1882,Codeine,5 mg,nausea and vomiting,Gliclazide,424,once weekly,Lupin
+1883,Codeine,10 mg,nausea and vomiting,Lamotrigine,214,once daily,Zydus Lifesciences
+1884,Codeine,20 mg,blood thinning,Aspirin,752,three times daily,Lupin
+1885,Codeine,25 mg,fever,Insulin,871,three times daily,Intas Pharma
+1886,Codeine,40 mg,asthma,Levetiracetam,956,once every 8 hours,Sun Pharma
+1887,Codeine,50 mg,blood thinning,Insulin,587,once weekly,Torrent Pharma
+1888,Codeine,75 mg,cholesterol control,Clopidogrel,939,three times daily,Torrent Pharma
+1889,Codeine,100 mg,asthma,Warfarin,543,twice daily,Cipla
+1890,Codeine,150 mg,cholesterol control,Pioglitazone,422,once daily,Alkem Labs
+1891,Codeine,200 mg,bacterial infection,Codeine,125,twice daily,Dr. Reddy's
+1892,Codeine,250 mg,anxiety,Ibuprofen,170,once every 8 hours,Lupin
+1893,Codeine,300 mg,acid reflux,Desloratadine,274,twice daily,Sun Pharma
+1894,Codeine,400 mg,depression,Tramadol,102,once daily,Dr. Reddy's
+1895,Codeine,500 mg,fever,Ondansetron,812,once every 8 hours,Lupin
+1896,Codeine,600 mg,anxiety,Clopidogrel,488,once weekly,Sun Pharma
+1897,Codeine,750 mg,acid reflux,Prednisone,654,once daily,Glenmark
+1898,Codeine,1 g,hypertension,Ibuprofen,57,twice daily,Cipla
+1899,Codeine,2 g,hypertension,Omeprazole,60,twice daily,Lupin
+1900,Codeine,125 mg/5 ml,fever,Levetiracetam,562,twice daily,Dr. Reddy's
+1901,Codeine,250 mg/5 ml,fever,Hydrochlorothiazide,167,twice daily,Torrent Pharma
+1902,Codeine,500 mg/5 ml,depression,Quetiapine,746,once daily,Cipla
+1903,Morphine,5 mg,anxiety,Codeine,643,three times daily,Aurobindo Pharma
+1904,Morphine,10 mg,anxiety,Azithromycin,320,once daily,Sun Pharma
+1905,Morphine,20 mg,acid reflux,Paracetamol,318,once every 8 hours,Dr. Reddy's
+1906,Morphine,25 mg,anxiety,Haloperidol,706,once weekly,Glenmark
+1907,Morphine,40 mg,allergy,Cetirizine,651,once weekly,Torrent Pharma
+1908,Morphine,50 mg,acid reflux,Clindamycin,695,once every 8 hours,Lupin
+1909,Morphine,75 mg,cholesterol control,Levetiracetam,981,twice daily,Dr. Reddy's
+1910,Morphine,100 mg,pain relief,Quetiapine,614,once daily,Alkem Labs
+1911,Morphine,150 mg,allergy,Paracetamol,58,once every 8 hours,Torrent Pharma
+1912,Morphine,200 mg,hypertension,Risperidone,296,three times daily,Glenmark
+1913,Morphine,250 mg,allergy,Paracetamol,595,twice daily,Cipla
+1914,Morphine,300 mg,nausea and vomiting,Tramadol,741,three times daily,Glenmark
+1915,Morphine,400 mg,inflammation,Levocetirizine,966,once every 8 hours,Torrent Pharma
+1916,Morphine,500 mg,bacterial infection,Carbamazepine,394,once every 8 hours,Glenmark
+1917,Morphine,600 mg,bacterial infection,Haloperidol,824,once every 8 hours,Alkem Labs
+1918,Morphine,750 mg,diabetes,Amoxicillin,443,once every 8 hours,Lupin
+1919,Morphine,1 g,anxiety,Budesonide,730,once daily,Alkem Labs
+1920,Morphine,2 g,hypertension,Prednisone,635,once daily,Lupin
+1921,Morphine,125 mg/5 ml,inflammation,Amoxicillin,713,once daily,Sun Pharma
+1922,Morphine,250 mg/5 ml,pain relief,Budesonide,181,once daily,Zydus Lifesciences
+1923,Morphine,500 mg/5 ml,diabetes,Gliclazide,840,twice daily,Glenmark
+1924,Gabapentin,5 mg,acid reflux,Montelukast,485,once every 8 hours,Zydus Lifesciences
+1925,Gabapentin,10 mg,acid reflux,Losartan,279,once daily,Alkem Labs
+1926,Gabapentin,20 mg,fever,Sertraline,716,once weekly,Aurobindo Pharma
+1927,Gabapentin,25 mg,depression,Risperidone,988,once weekly,Lupin
+1928,Gabapentin,40 mg,asthma,Doxycycline,912,twice daily,Dr. Reddy's
+1929,Gabapentin,50 mg,asthma,Domperidone,791,once weekly,Zydus Lifesciences
+1930,Gabapentin,75 mg,diarrhea,Amoxicillin,70,once daily,Glenmark
+1931,Gabapentin,100 mg,nausea and vomiting,Budesonide,397,once daily,Glenmark
+1932,Gabapentin,150 mg,cholesterol control,Doxycycline,642,once every 8 hours,Torrent Pharma
+1933,Gabapentin,200 mg,allergy,Lamotrigine,69,three times daily,Cipla
+1934,Gabapentin,250 mg,fever,Losartan,67,twice daily,Alkem Labs
+1935,Gabapentin,300 mg,fever,Desloratadine,358,once daily,Lupin
+1936,Gabapentin,400 mg,diarrhea,Furosemide,131,once weekly,Torrent Pharma
+1937,Gabapentin,500 mg,blood thinning,Glimepiride,605,once weekly,Lupin
+1938,Gabapentin,600 mg,hypertension,Losartan,831,once daily,Lupin
+1939,Gabapentin,750 mg,acid reflux,Insulin,24,once every 8 hours,Intas Pharma
+1940,Gabapentin,1 g,hypertension,Amoxicillin,96,twice daily,Torrent Pharma
+1941,Gabapentin,2 g,blood thinning,Omeprazole,324,three times daily,Dr. Reddy's
+1942,Gabapentin,125 mg/5 ml,seizure control,Valproate,642,once every 8 hours,Torrent Pharma
+1943,Gabapentin,250 mg/5 ml,nausea and vomiting,Fluoxetine,827,twice daily,Torrent Pharma
+1944,Gabapentin,500 mg/5 ml,depression,Ciprofloxacin,284,once daily,Torrent Pharma
+1945,Pregabalin,5 mg,allergy,Valproate,451,once daily,Zydus Lifesciences
+1946,Pregabalin,10 mg,seizure control,Codeine,293,twice daily,Cipla
+1947,Pregabalin,20 mg,hypertension,Metronidazole,771,once daily,Dr. Reddy's
+1948,Pregabalin,25 mg,hypertension,Azithromycin,890,three times daily,Sun Pharma
+1949,Pregabalin,40 mg,fever,Clopidogrel,420,three times daily,Alkem Labs
+1950,Pregabalin,50 mg,allergy,Fluoxetine,181,twice daily,Alkem Labs
+1951,Pregabalin,75 mg,anxiety,Loratadine,643,once daily,Dr. Reddy's
+1952,Pregabalin,100 mg,diabetes,Prednisone,664,once daily,Dr. Reddy's
+1953,Pregabalin,150 mg,diabetes,Pioglitazone,801,once daily,Torrent Pharma
+1954,Pregabalin,200 mg,inflammation,Sertraline,24,once daily,Torrent Pharma
+1955,Pregabalin,250 mg,blood thinning,Loratadine,915,once daily,Alkem Labs
+1956,Pregabalin,300 mg,pain relief,Gabapentin,465,once every 8 hours,Sun Pharma
+1957,Pregabalin,400 mg,anxiety,Glimepiride,268,three times daily,Aurobindo Pharma
+1958,Pregabalin,500 mg,bacterial infection,Gabapentin,230,once every 8 hours,Intas Pharma
+1959,Pregabalin,600 mg,cholesterol control,Salbutamol,258,once every 8 hours,Aurobindo Pharma
+1960,Pregabalin,750 mg,hypertension,Domperidone,494,once daily,Zydus Lifesciences
+1961,Pregabalin,1 g,depression,Azithromycin,798,once every 8 hours,Aurobindo Pharma
+1962,Pregabalin,2 g,allergy,Gliclazide,498,twice daily,Zydus Lifesciences
+1963,Pregabalin,125 mg/5 ml,diabetes,Prednisone,281,once daily,Dr. Reddy's
+1964,Pregabalin,250 mg/5 ml,seizure control,Clopidogrel,289,once daily,Aurobindo Pharma
+1965,Pregabalin,500 mg/5 ml,hypertension,Clopidogrel,846,three times daily,Sun Pharma
+1966,Carbamazepine,5 mg,bacterial infection,Prednisone,419,three times daily,Alkem Labs
+1967,Carbamazepine,10 mg,diabetes,Atorvastatin,990,once weekly,Dr. Reddy's
+1968,Carbamazepine,20 mg,anxiety,Atorvastatin,52,once every 8 hours,Cipla
+1969,Carbamazepine,25 mg,depression,Clindamycin,214,once weekly,Dr. Reddy's
+1970,Carbamazepine,40 mg,diabetes,Paracetamol,168,once every 8 hours,Lupin
+1971,Carbamazepine,50 mg,allergy,Lamotrigine,551,once weekly,Glenmark
+1972,Carbamazepine,75 mg,inflammation,Haloperidol,786,once weekly,Sun Pharma
+1973,Carbamazepine,100 mg,anxiety,Loratadine,490,once weekly,Torrent Pharma
+1974,Carbamazepine,150 mg,anxiety,Doxycycline,373,once weekly,Aurobindo Pharma
+1975,Carbamazepine,200 mg,nausea and vomiting,Azithromycin,705,once weekly,Glenmark
+1976,Carbamazepine,250 mg,fever,Aspirin,329,twice daily,Alkem Labs
+1977,Carbamazepine,300 mg,allergy,Olanzapine,560,once every 8 hours,Lupin
+1978,Carbamazepine,400 mg,inflammation,Lamotrigine,797,once every 8 hours,Lupin
+1979,Carbamazepine,500 mg,acid reflux,Prednisone,871,once every 8 hours,Torrent Pharma
+1980,Carbamazepine,600 mg,nausea and vomiting,Loratadine,384,twice daily,Glenmark
+1981,Carbamazepine,750 mg,pain relief,Amoxicillin,861,twice daily,Zydus Lifesciences
+1982,Carbamazepine,1 g,cholesterol control,Clopidogrel,827,once daily,Torrent Pharma
+1983,Carbamazepine,2 g,acid reflux,Atorvastatin,493,twice daily,Alkem Labs
+1984,Carbamazepine,125 mg/5 ml,blood thinning,Levocetirizine,513,three times daily,Lupin
+1985,Carbamazepine,250 mg/5 ml,bacterial infection,Gliclazide,706,twice daily,Lupin
+1986,Carbamazepine,500 mg/5 ml,bacterial infection,Atorvastatin,372,once weekly,Zydus Lifesciences
+1987,Valproate,5 mg,bacterial infection,Famotidine,542,three times daily,Torrent Pharma
+1988,Valproate,10 mg,fever,Ondansetron,375,once weekly,Cipla
+1989,Valproate,20 mg,asthma,Desloratadine,870,twice daily,Intas Pharma
+1990,Valproate,25 mg,nausea and vomiting,Sertraline,875,once weekly,Sun Pharma
+1991,Valproate,40 mg,diarrhea,Azithromycin,933,once weekly,Intas Pharma
+1992,Valproate,50 mg,blood thinning,Olanzapine,669,once daily,Zydus Lifesciences
+1993,Valproate,75 mg,bacterial infection,Metformin,307,twice daily,Sun Pharma
+1994,Valproate,100 mg,diabetes,Amlodipine,743,once every 8 hours,Torrent Pharma
+1995,Valproate,150 mg,blood thinning,Haloperidol,70,three times daily,Intas Pharma
+1996,Valproate,200 mg,diabetes,Pioglitazone,256,once daily,Sun Pharma
+1997,Valproate,250 mg,pain relief,Losartan,97,three times daily,Dr. Reddy's
+1998,Valproate,300 mg,acid reflux,Codeine,123,three times daily,Intas Pharma
+1999,Valproate,400 mg,diabetes,Montelukast,109,once daily,Zydus Lifesciences
+2000,Valproate,500 mg,hypertension,Naproxen,269,three times daily,Lupin
+2001,Valproate,600 mg,asthma,Amlodipine,74,once weekly,Lupin
+2002,Valproate,750 mg,asthma,Amoxicillin,809,once every 8 hours,Glenmark
+2003,Valproate,1 g,depression,Diclofenac,12,once weekly,Zydus Lifesciences
+2004,Valproate,2 g,blood thinning,Naproxen,948,once weekly,Sun Pharma
+2005,Valproate,125 mg/5 ml,cholesterol control,Levocetirizine,42,once daily,Zydus Lifesciences
+2006,Valproate,250 mg/5 ml,depression,Amlodipine,409,once weekly,Zydus Lifesciences
+2007,Valproate,500 mg/5 ml,diarrhea,Gabapentin,141,once weekly,Cipla
+2008,Lamotrigine,5 mg,pain relief,Paracetamol,480,three times daily,Dr. Reddy's
+2009,Lamotrigine,10 mg,nausea and vomiting,Famotidine,945,three times daily,Glenmark
+2010,Lamotrigine,20 mg,inflammation,Omeprazole,551,twice daily,Alkem Labs
+2011,Lamotrigine,25 mg,allergy,Spironolactone,813,twice daily,Torrent Pharma
+2012,Lamotrigine,40 mg,anxiety,Azithromycin,303,twice daily,Cipla
+2013,Lamotrigine,50 mg,diabetes,Ibuprofen,90,three times daily,Aurobindo Pharma
+2014,Lamotrigine,75 mg,seizure control,Paracetamol,67,once daily,Glenmark
+2015,Lamotrigine,100 mg,acid reflux,Pioglitazone,820,once every 8 hours,Cipla
+2016,Lamotrigine,150 mg,inflammation,Domperidone,645,once weekly,Aurobindo Pharma
+2017,Lamotrigine,200 mg,anxiety,Pregabalin,831,once every 8 hours,Zydus Lifesciences
+2018,Lamotrigine,250 mg,inflammation,Pantoprazole,486,twice daily,Sun Pharma
+2019,Lamotrigine,300 mg,allergy,Codeine,919,once every 8 hours,Zydus Lifesciences
+2020,Lamotrigine,400 mg,seizure control,Insulin,593,once weekly,Intas Pharma
+2021,Lamotrigine,500 mg,depression,Cetirizine,734,twice daily,Lupin
+2022,Lamotrigine,600 mg,allergy,Cetirizine,350,once daily,Torrent Pharma
+2023,Lamotrigine,750 mg,depression,Spironolactone,968,twice daily,Cipla
+2024,Lamotrigine,1 g,fever,Warfarin,43,once every 8 hours,Torrent Pharma
+2025,Lamotrigine,2 g,blood thinning,Glimepiride,858,three times daily,Sun Pharma
+2026,Lamotrigine,125 mg/5 ml,seizure control,Quetiapine,239,twice daily,Torrent Pharma
+2027,Lamotrigine,250 mg/5 ml,blood thinning,Montelukast,940,once weekly,Dr. Reddy's
+2028,Lamotrigine,500 mg/5 ml,depression,Ciprofloxacin,516,twice daily,Dr. Reddy's
+2029,Levetiracetam,5 mg,pain relief,Olanzapine,874,once weekly,Dr. Reddy's
+2030,Levetiracetam,10 mg,inflammation,Tramadol,957,once weekly,Glenmark
+2031,Levetiracetam,20 mg,diabetes,Ibuprofen,187,once weekly,Lupin
+2032,Levetiracetam,25 mg,inflammation,Codeine,271,once weekly,Alkem Labs
+2033,Levetiracetam,40 mg,blood thinning,Carbamazepine,737,once daily,Torrent Pharma
+2034,Levetiracetam,50 mg,asthma,Risperidone,65,once weekly,Zydus Lifesciences
+2035,Levetiracetam,75 mg,cholesterol control,Pregabalin,488,once weekly,Torrent Pharma
+2036,Levetiracetam,100 mg,cholesterol control,Losartan,801,once weekly,Alkem Labs
+2037,Levetiracetam,150 mg,seizure control,Metformin,110,three times daily,Lupin
+2038,Levetiracetam,200 mg,diarrhea,Losartan,150,once daily,Intas Pharma
+2039,Levetiracetam,250 mg,allergy,Atorvastatin,19,once every 8 hours,Alkem Labs
+2040,Levetiracetam,300 mg,asthma,Furosemide,426,twice daily,Intas Pharma
+2041,Levetiracetam,400 mg,pain relief,Spironolactone,346,once daily,Aurobindo Pharma
+2042,Levetiracetam,500 mg,diabetes,Ciprofloxacin,352,once daily,Intas Pharma
+2043,Levetiracetam,600 mg,anxiety,Salbutamol,556,once weekly,Dr. Reddy's
+2044,Levetiracetam,750 mg,depression,Pioglitazone,524,twice daily,Glenmark
+2045,Levetiracetam,1 g,seizure control,Amoxicillin,738,three times daily,Zydus Lifesciences
+2046,Levetiracetam,2 g,hypertension,Budesonide,756,once daily,Aurobindo Pharma
+2047,Levetiracetam,125 mg/5 ml,diarrhea,Pioglitazone,986,twice daily,Sun Pharma
+2048,Levetiracetam,250 mg/5 ml,acid reflux,Hydrochlorothiazide,913,twice daily,Alkem Labs
+2049,Levetiracetam,500 mg/5 ml,diarrhea,Formoterol,520,once daily,Dr. Reddy's
+2050,Risperidone,5 mg,diarrhea,Pioglitazone,173,twice daily,Torrent Pharma
+2051,Risperidone,10 mg,diarrhea,Prednisone,482,three times daily,Alkem Labs
+2052,Risperidone,20 mg,allergy,Clopidogrel,341,once every 8 hours,Glenmark
+2053,Risperidone,25 mg,blood thinning,Ondansetron,985,twice daily,Aurobindo Pharma
+2054,Risperidone,40 mg,blood thinning,Doxycycline,234,once every 8 hours,Aurobindo Pharma
+2055,Risperidone,50 mg,blood thinning,Loratadine,456,once every 8 hours,Sun Pharma
+2056,Risperidone,75 mg,seizure control,Salbutamol,40,three times daily,Intas Pharma
+2057,Risperidone,100 mg,fever,Insulin,699,once daily,Zydus Lifesciences
+2058,Risperidone,150 mg,depression,Diclofenac,636,three times daily,Dr. Reddy's
+2059,Risperidone,200 mg,inflammation,Montelukast,344,twice daily,Cipla
+2060,Risperidone,250 mg,acid reflux,Losartan,810,three times daily,Dr. Reddy's
+2061,Risperidone,300 mg,diarrhea,Tramadol,116,once every 8 hours,Zydus Lifesciences
+2062,Risperidone,400 mg,nausea and vomiting,Furosemide,202,once daily,Cipla
+2063,Risperidone,500 mg,fever,Carbamazepine,286,once every 8 hours,Glenmark
+2064,Risperidone,600 mg,nausea and vomiting,Losartan,658,once daily,Torrent Pharma
+2065,Risperidone,750 mg,nausea and vomiting,Doxycycline,666,once every 8 hours,Lupin
+2066,Risperidone,1 g,depression,Salbutamol,200,twice daily,Glenmark
+2067,Risperidone,2 g,diarrhea,Montelukast,94,once weekly,Dr. Reddy's
+2068,Risperidone,125 mg/5 ml,diarrhea,Glimepiride,794,once weekly,Zydus Lifesciences
+2069,Risperidone,250 mg/5 ml,acid reflux,Famotidine,541,once weekly,Torrent Pharma
+2070,Risperidone,500 mg/5 ml,allergy,Loperamide,357,once weekly,Alkem Labs
+2071,Olanzapine,5 mg,inflammation,Metformin,238,three times daily,Glenmark
+2072,Olanzapine,10 mg,cholesterol control,Levetiracetam,554,once daily,Dr. Reddy's
+2073,Olanzapine,20 mg,hypertension,Ondansetron,639,once weekly,Intas Pharma
+2074,Olanzapine,25 mg,hypertension,Levocetirizine,77,twice daily,Intas Pharma
+2075,Olanzapine,40 mg,diarrhea,Morphine,643,once every 8 hours,Zydus Lifesciences
+2076,Olanzapine,50 mg,anxiety,Quetiapine,958,twice daily,Torrent Pharma
+2077,Olanzapine,75 mg,fever,Desloratadine,380,twice daily,Torrent Pharma
+2078,Olanzapine,100 mg,fever,Lamotrigine,960,three times daily,Aurobindo Pharma
+2079,Olanzapine,150 mg,pain relief,Haloperidol,19,once weekly,Torrent Pharma
+2080,Olanzapine,200 mg,diarrhea,Ondansetron,875,once daily,Zydus Lifesciences
+2081,Olanzapine,250 mg,seizure control,Hydrochlorothiazide,383,twice daily,Torrent Pharma
+2082,Olanzapine,300 mg,diabetes,Metformin,738,twice daily,Intas Pharma
+2083,Olanzapine,400 mg,inflammation,Cetirizine,266,once daily,Sun Pharma
+2084,Olanzapine,500 mg,bacterial infection,Desloratadine,842,once weekly,Intas Pharma
+2085,Olanzapine,600 mg,diabetes,Hydrochlorothiazide,18,once daily,Alkem Labs
+2086,Olanzapine,750 mg,asthma,Insulin,238,three times daily,Cipla
+2087,Olanzapine,1 g,blood thinning,Ibuprofen,237,three times daily,Alkem Labs
+2088,Olanzapine,2 g,diarrhea,Sertraline,203,three times daily,Lupin
+2089,Olanzapine,125 mg/5 ml,cholesterol control,Loratadine,439,twice daily,Aurobindo Pharma
+2090,Olanzapine,250 mg/5 ml,acid reflux,Risperidone,82,twice daily,Cipla
+2091,Olanzapine,500 mg/5 ml,fever,Ciprofloxacin,673,three times daily,Glenmark
+2092,Quetiapine,5 mg,bacterial infection,Azithromycin,911,three times daily,Zydus Lifesciences
+2093,Quetiapine,10 mg,inflammation,Domperidone,739,once every 8 hours,Dr. Reddy's
+2094,Quetiapine,20 mg,cholesterol control,Hydrochlorothiazide,189,once every 8 hours,Lupin
+2095,Quetiapine,25 mg,bacterial infection,Loperamide,595,once daily,Alkem Labs
+2096,Quetiapine,40 mg,inflammation,Naproxen,495,once weekly,Torrent Pharma
+2097,Quetiapine,50 mg,pain relief,Naproxen,518,once weekly,Sun Pharma
+2098,Quetiapine,75 mg,pain relief,Metformin,679,once every 8 hours,Aurobindo Pharma
+2099,Quetiapine,100 mg,blood thinning,Amlodipine,278,once every 8 hours,Aurobindo Pharma
+2100,Quetiapine,150 mg,nausea and vomiting,Warfarin,633,twice daily,Torrent Pharma
+2101,Quetiapine,200 mg,pain relief,Insulin,812,once every 8 hours,Alkem Labs
+2102,Quetiapine,250 mg,inflammation,Risperidone,941,once weekly,Glenmark
+2103,Quetiapine,300 mg,acid reflux,Lamotrigine,709,once daily,Intas Pharma
+2104,Quetiapine,400 mg,depression,Metformin,945,once weekly,Torrent Pharma
+2105,Quetiapine,500 mg,seizure control,Metronidazole,697,three times daily,Glenmark
+2106,Quetiapine,600 mg,diabetes,Salbutamol,436,once weekly,Lupin
+2107,Quetiapine,750 mg,nausea and vomiting,Lamotrigine,406,twice daily,Lupin
+2108,Quetiapine,1 g,fever,Carbamazepine,149,once every 8 hours,Lupin
+2109,Quetiapine,2 g,diabetes,Naproxen,193,once weekly,Torrent Pharma
+2110,Quetiapine,125 mg/5 ml,inflammation,Hydrochlorothiazide,218,once weekly,Lupin
+2111,Quetiapine,250 mg/5 ml,fever,Ibuprofen,996,once daily,Intas Pharma
+2112,Quetiapine,500 mg/5 ml,pain relief,Clindamycin,283,once every 8 hours,Intas Pharma
+2113,Haloperidol,5 mg,fever,Desloratadine,234,once weekly,Alkem Labs
+2114,Haloperidol,10 mg,acid reflux,Furosemide,609,three times daily,Lupin
+2115,Haloperidol,20 mg,inflammation,Amoxicillin,903,three times daily,Sun Pharma
+2116,Haloperidol,25 mg,asthma,Loperamide,285,once weekly,Intas Pharma
+2117,Haloperidol,40 mg,acid reflux,Ciprofloxacin,738,twice daily,Intas Pharma
+2118,Haloperidol,50 mg,nausea and vomiting,Fluoxetine,203,three times daily,Alkem Labs
+2119,Haloperidol,75 mg,depression,Haloperidol,836,once daily,Dr. Reddy's
+2120,Haloperidol,100 mg,anxiety,Budesonide,678,twice daily,Torrent Pharma
+2121,Haloperidol,150 mg,blood thinning,Fluoxetine,130,three times daily,Lupin
+2122,Haloperidol,200 mg,asthma,Lamotrigine,575,once weekly,Zydus Lifesciences
+2123,Haloperidol,250 mg,depression,Lamotrigine,767,once every 8 hours,Glenmark
+2124,Haloperidol,300 mg,allergy,Hydrochlorothiazide,795,once weekly,Sun Pharma
+2125,Haloperidol,400 mg,diarrhea,Morphine,292,once daily,Dr. Reddy's
+2126,Haloperidol,500 mg,nausea and vomiting,Valproate,529,once every 8 hours,Zydus Lifesciences
+2127,Haloperidol,600 mg,asthma,Sertraline,746,once daily,Zydus Lifesciences
+2128,Haloperidol,750 mg,inflammation,Ondansetron,115,three times daily,Cipla
+2129,Haloperidol,1 g,inflammation,Budesonide,714,three times daily,Cipla
+2130,Haloperidol,2 g,blood thinning,Azithromycin,96,three times daily,Alkem Labs
+2131,Haloperidol,125 mg/5 ml,fever,Ibuprofen,751,twice daily,Torrent Pharma
+2132,Haloperidol,250 mg/5 ml,depression,Naproxen,568,once every 8 hours,Sun Pharma
+2133,Haloperidol,500 mg/5 ml,cholesterol control,Naproxen,467,twice daily,Dr. Reddy's
