@@ -25,8 +25,6 @@ STOCK_BACKEND = os.getenv("STOCK_BACKEND", "csv").lower()  # mongodb | postgres 
 MONGO_URI = os.getenv("MONGO_URI", "")
 MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "hospital_ai")
 MONGO_STOCK_COLLECTION = os.getenv("MONGO_STOCK_COLLECTION", "medicine_stock")
-DATABASE_URL = os.getenv("DATABASE_URL", "")
-POSTGRES_STOCK_TABLE = os.getenv("POSTGRES_STOCK_TABLE", "medicine_stock")
 
 # LLMs
 GENERATION_MODEL_NAME = os.getenv("GENERATION_MODEL_NAME", "mistralai/Mistral-7B-Instruct-v0.2")
@@ -36,7 +34,7 @@ TEMPERATURE = 0.2
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY", "")
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:latest")
 GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
 HUGGINGFACE_INFERENCE_MODEL = os.getenv("HUGGINGFACE_INFERENCE_MODEL", "google/flan-t5-base")
 

@@ -8,11 +8,9 @@ import re
 from rapidfuzz import fuzz, process
 
 from backend.config import (
-    DATABASE_URL,
     MONGO_DB_NAME,
     MONGO_STOCK_COLLECTION,
     MONGO_URI,
-    POSTGRES_STOCK_TABLE,
     STOCK_BACKEND,
 )
 
@@ -132,7 +130,8 @@ class MongoStockRepository(BaseStockRepository):
             {
                 "medicine_name": {"$regex": f"^{re.escape(medicine_name.strip())}$", "$options": "i"},
                 "strength": {"$regex": f"^{re.escape(strength.strip())}$", "$options": "i"},
-            }
+            },
+            sort=[("updatedAt", -1), ("createdAt", -1)],
         )
 
     def get_stock(self, medicine_name: str, strength: str) -> Optional[StockRecord]:
@@ -224,135 +223,6 @@ class MongoStockRepository(BaseStockRepository):
         return [self._to_record(doc) for doc in self._collection.find({}, {"_id": 0})]
 
 
-class PostgresStockRepository(BaseStockRepository):
-    def __init__(self, database_url: str, table_name: str) -> None:
-        import psycopg2
-
-        self.source_name = "postgres"
-        self._psycopg2 = psycopg2
-        self._database_url = database_url
-        self._table_name = table_name
-        self._ensure_table()
-
-    def _connect(self):
-        return self._psycopg2.connect(self._database_url)
-
-    def _ensure_table(self) -> None:
-        with self._connect() as conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    f"""
-                    CREATE TABLE IF NOT EXISTS {self._table_name} (
-                        medicine_name TEXT NOT NULL,
-                        strength TEXT NOT NULL,
-                        stock INTEGER NOT NULL CHECK (stock >= 0),
-                        medicine_id TEXT DEFAULT '',
-                        createdAt TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-                        updatedAt TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-                        PRIMARY KEY (medicine_name, strength)
-                    )
-                    """
-                )
-
-    @staticmethod
-    def _row_to_record(row: tuple) -> StockRecord:
-        return StockRecord(
-            medicine_name=str(row[0]),
-            strength=str(row[1]),
-            stock=int(row[2]),
-            source="postgres",
-            medicine_id=str(row[3] or ""),
-            created_at=str(row[4]),
-            updated_at=str(row[5]),
-        )
-
-    def get_stock(self, medicine_name: str, strength: str) -> Optional[StockRecord]:
-        with self._connect() as conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    f"""
-                    SELECT medicine_name, strength, stock, medicine_id, createdAt, updatedAt
-                    FROM {self._table_name}
-                    WHERE lower(medicine_name) = lower(%s) AND lower(strength) = lower(%s)
-                    """,
-                    (medicine_name.strip(), strength.strip()),
-                )
-                row = cur.fetchone()
-                return self._row_to_record(row) if row else None
-
-    def add_stock(self, medicine_name: str, strength: str, quantity: int, medicine_id: str = "") -> StockRecord:
-        quantity = max(0, int(quantity))
-        with self._connect() as conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    f"""
-                    INSERT INTO {self._table_name} (medicine_name, strength, stock, medicine_id, createdAt, updatedAt)
-                    VALUES (%s, %s, %s, %s, NOW(), NOW())
-                    ON CONFLICT (medicine_name, strength)
-                    DO UPDATE SET stock = {self._table_name}.stock + EXCLUDED.stock, updatedAt = NOW()
-                    RETURNING medicine_name, strength, stock, medicine_id, createdAt, updatedAt
-                    """,
-                    (medicine_name.strip(), strength.strip(), quantity, medicine_id),
-                )
-                return self._row_to_record(cur.fetchone())
-
-    def remove_stock(self, medicine_name: str, strength: str, quantity: int) -> StockRecord:
-        quantity = max(0, int(quantity))
-        record = self.get_stock(medicine_name, strength)
-        if not record:
-            raise ValueError("Medicine not found in stock database.")
-        if quantity > record.stock:
-            raise ValueError("Insufficient stock")
-        with self._connect() as conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    f"""
-                    UPDATE {self._table_name}
-                    SET stock = stock - %s, updatedAt = NOW()
-                    WHERE lower(medicine_name) = lower(%s) AND lower(strength) = lower(%s)
-                    RETURNING medicine_name, strength, stock, medicine_id, createdAt, updatedAt
-                    """,
-                    (quantity, medicine_name.strip(), strength.strip()),
-                )
-                return self._row_to_record(cur.fetchone())
-
-    def count_records(self) -> int:
-        with self._connect() as conn:
-            with conn.cursor() as cur:
-                cur.execute(f"SELECT COUNT(*) FROM {self._table_name}")
-                return int(cur.fetchone()[0])
-
-    def sync_catalog(self, rows: list[dict]) -> int:
-        inserted = 0
-        with self._connect() as conn:
-            with conn.cursor() as cur:
-                for row in rows:
-                    cur.execute(
-                        f"""
-                        INSERT INTO {self._table_name} (medicine_name, strength, stock, medicine_id, createdAt, updatedAt)
-                        VALUES (%s, %s, %s, %s, NOW(), NOW())
-                        ON CONFLICT (medicine_name, strength)
-                        DO UPDATE SET updatedAt = NOW(), medicine_id = COALESCE(NULLIF({self._table_name}.medicine_id, ''), EXCLUDED.medicine_id)
-                        """,
-                        (
-                            row["medicine_name"],
-                            row["strength"],
-                            int(row["stock"]),
-                            str(row.get("medicine_id", "")),
-                        ),
-                    )
-                    inserted += 1
-        return inserted
-
-    def list_records(self) -> list[StockRecord]:
-        with self._connect() as conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    f"SELECT medicine_name, strength, stock, medicine_id, createdAt, updatedAt FROM {self._table_name}"
-                )
-                return [self._row_to_record(row) for row in cur.fetchall()]
-
-
 class CsvFallbackStockRepository(BaseStockRepository):
     def __init__(self) -> None:
         self.source_name = "csv_fallback"
@@ -429,25 +299,6 @@ def build_stock_repository_with_status() -> tuple[BaseStockRepository, dict]:
         except Exception as exc:
             return CsvFallbackStockRepository(), {
                 "backend": "mongodb",
-                "connected": False,
-                "source": "csv_fallback",
-                "error": str(exc),
-            }
-
-    if backend == "postgres":
-        if not DATABASE_URL:
-            return CsvFallbackStockRepository(), {
-                "backend": "postgres",
-                "connected": False,
-                "source": "csv_fallback",
-                "error": "DATABASE_URL not set",
-            }
-        try:
-            repo = PostgresStockRepository(DATABASE_URL, POSTGRES_STOCK_TABLE)
-            return repo, {"backend": "postgres", "connected": True, "source": repo.source_name}
-        except Exception as exc:
-            return CsvFallbackStockRepository(), {
-                "backend": "postgres",
                 "connected": False,
                 "source": "csv_fallback",
                 "error": str(exc),
