@@ -18,6 +18,7 @@ CSV_PATH = DATA_DIR / "medicine_dataset_50k_unique.csv"
 EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "sentence-transformers/all-MiniLM-L6-v2")
 CHROMA_COLLECTION_NAME = "hospital_medicines"
 TOP_K = 4
+CHROMA_RELEVANCE_MAX_DISTANCE = float(os.getenv("CHROMA_RELEVANCE_MAX_DISTANCE", "1.2"))
 
 # Stock backend
 STOCK_BACKEND = os.getenv("STOCK_BACKEND", "csv").lower()  # mongodb | postgres | csv
@@ -32,6 +33,12 @@ GENERATION_MODEL_NAME = os.getenv("GENERATION_MODEL_NAME", "mistralai/Mistral-7B
 EXTRACTION_MODEL_NAME = os.getenv("EXTRACTION_MODEL_NAME", "google/flan-t5-base")
 MAX_NEW_TOKENS = 256
 TEMPERATURE = 0.2
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY", "")
+OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
+HUGGINGFACE_INFERENCE_MODEL = os.getenv("HUGGINGFACE_INFERENCE_MODEL", "google/flan-t5-base")
 
 # Query routing
 STOCK_INTENT_KEYWORDS = {

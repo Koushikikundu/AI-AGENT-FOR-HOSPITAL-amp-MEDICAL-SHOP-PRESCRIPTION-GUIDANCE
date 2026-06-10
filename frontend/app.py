@@ -43,20 +43,48 @@ with col1:
 with col2:
     stock_strength = st.text_input("Strength", key="stock_strength", placeholder="500 mg")
 with col3:
-    stock_delta = st.number_input("Change (+/-)", key="stock_delta", step=1, value=0)
+    stock_quantity = st.number_input("Quantity", key="stock_quantity", step=1, value=1, min_value=1)
 
-if st.button("Update Stock"):
+stock_action_col1, stock_action_col2 = st.columns(2)
+with stock_action_col1:
+    add_stock_clicked = st.button("Add Stock")
+with stock_action_col2:
+    remove_stock_clicked = st.button("Remove Stock")
+
+if add_stock_clicked or remove_stock_clicked:
     if not stock_med_name.strip():
         st.error("Enter medicine name.")
     else:
-        update_result = st.session_state.service.update_stock(
-            medicine_name=stock_med_name.strip(),
-            strength=stock_strength.strip(),
-            delta=int(stock_delta),
-        )
+        if add_stock_clicked:
+            update_result = st.session_state.service.add_stock(
+                medicine_name=stock_med_name.strip(),
+                strength=stock_strength.strip(),
+                quantity=int(stock_quantity),
+            )
+        else:
+            update_result = st.session_state.service.remove_stock(
+                medicine_name=stock_med_name.strip(),
+                strength=stock_strength.strip(),
+                quantity=int(stock_quantity),
+            )
         if update_result.get("ok"):
             st.success(update_result["message"])
         else:
             st.error(update_result.get("message", "Stock update failed."))
         with st.expander("Stock update details"):
             st.json(update_result)
+
+st.divider()
+st.subheader("Bulk Stock Upload")
+uploaded_csv = st.file_uploader("Choose CSV", type=["csv"])
+if st.button("Upload"):
+    if uploaded_csv is None:
+        st.error("Choose a CSV file.")
+    else:
+        upload_result = st.session_state.service.upload_stock_csv(uploaded_csv.getvalue())
+        if upload_result.get("ok"):
+            st.success(upload_result["message"])
+        else:
+            st.error(upload_result.get("message", "CSV upload failed."))
+        with st.expander("CSV upload summary"):
+            st.json(upload_result)

@@ -1,22 +1,25 @@
 from __future__ import annotations
 
+import io
 import re
 
+import pandas as pd
+
 from backend.rag.rag_pipeline import HospitalRAGPipeline
-from backend.services.stock_repository import build_stock_repository_with_status
+from backend.services.stock_repository import BaseStockRepository, StockRecord, build_stock_repository_with_status
 from backend.utils.csv_loader import MedicineCSVRepository
 from backend.utils.medicine_extractor import MedicineExtractor
 
 
 class MedicineAssistantService:
-    """Route stock to DB and all other knowledge to Chroma."""
+    """Route stock to DB and knowledge to Chroma/AI fallback."""
 
     def __init__(self) -> None:
         self.csv_repo = MedicineCSVRepository()
         self.extractor = MedicineExtractor()
         self.rag_pipeline = HospitalRAGPipeline()
         self.stock_repo, self.stock_backend_status = build_stock_repository_with_status()
-        self.seeded_rows = self._seed_stock_if_empty()
+        self.synced_rows = self._sync_stock_catalog()
 
     @staticmethod
     def _contains_phrase(query: str, phrases: list[str]) -> bool:
@@ -48,11 +51,6 @@ class MedicineAssistantService:
                 "recommend",
                 "best medicine",
                 "medicine for",
-                "for allergy",
-                "for fever",
-                "for pain",
-                "for cold",
-                "for cough",
                 "symptom",
             ],
         )
@@ -69,6 +67,8 @@ class MedicineAssistantService:
                 "alternative for",
                 "dosage of",
                 "manufacturer of",
+                "drug interactions",
+                "side effects",
             ],
         )
 
@@ -103,99 +103,162 @@ class MedicineAssistantService:
             "do we have",
             "how much",
             "instead of",
+            "side effects",
+            "drug interactions",
         ]:
             cleaned = cleaned.replace(token, " ")
         cleaned = re.sub(r"[^a-z0-9\s]", " ", cleaned)
         cleaned = re.sub(r"\s+", " ", cleaned).strip()
         return cleaned
 
-    def _resolve_match(self, query: str, extracted_name: str, extracted_strength: str):
-        strength = extracted_strength or self._extract_strength_from_query(query)
-        candidates: list[tuple[str, str]] = []
-
-        if extracted_name:
-            candidates.extend([(extracted_name, strength), (extracted_name, "")])
-        cleaned = self._clean_name_from_query(query, strength)
-        if cleaned:
-            candidates.extend([(cleaned, strength), (cleaned, "")])
-
-        best = None
-        for name, s in candidates:
-            m = self.csv_repo.fuzzy_match(
-                name,
-                s,
-                strict_strength=bool(s),
-                allow_numeric_strength_fallback=True,
-            )
-            if m is None:
-                continue
-            if best is None or m.fuzzy_score > best.fuzzy_score:
-                best = m
-        return best
-
-    def _seed_stock_if_empty(self) -> int:
-        rows = self.csv_repo.get_dataframe()[["medicine_id", "stock"]].to_dict(orient="records")
+    def _sync_stock_catalog(self) -> int:
+        rows = self.csv_repo.get_dataframe()[["medicine_id", "medicine_name", "strength", "stock"]].to_dict(
+            orient="records"
+        )
         try:
-            return int(self.stock_repo.bulk_seed_if_empty(rows))
+            return int(self.stock_repo.sync_catalog(rows))
         except Exception:
             return 0
 
+    def _resolve_stock_record(self, query: str, extracted_name: str, extracted_strength: str) -> StockRecord | None:
+        strength = extracted_strength or self._extract_strength_from_query(query)
+        candidates: list[tuple[str, str]] = []
+        if extracted_name:
+            candidates.append((extracted_name, strength))
+        cleaned = self._clean_name_from_query(query, strength)
+        if cleaned:
+            candidates.append((cleaned, strength))
+
+        # Stock must be deterministic. We only return a record on an exact
+        # medicine_name + strength match in the stock database.
+        for name, s in candidates:
+            if not name or not s:
+                continue
+            record = self.stock_repo.get_stock(name, s)
+            if record is not None:
+                return record
+        return None
+
     def _handle_stock_query(self, query: str, extracted_name: str, extracted_strength: str) -> dict:
-        match = self._resolve_match(query, extracted_name, extracted_strength)
-        if not match:
+        record = self._resolve_stock_record(query, extracted_name, extracted_strength)
+        if record is None:
             return {
                 "route": "stock",
                 "lookup_source": self.stock_backend_status.get("source"),
-                "answer": "I could not find an exact medicine+strength match in stock.",
+                "answer": "Stock unavailable for the requested medicine and strength.",
                 "matched_medicine": None,
                 "stock_backend_status": self.stock_backend_status,
             }
 
-        record = self.stock_repo.get_stock(match.medicine_id)
-        if record is None:
-            record = self.stock_repo.set_stock(match.medicine_id, int(match.stock))
         stock_status = "In stock" if record.stock > 0 else "Out of stock"
         return {
             "route": "stock",
             "lookup_source": record.source,
             "answer": (
-                f"{match.medicine_name} {match.strength}: {stock_status}. "
-                f"Current quantity: {record.stock} units. "
-                f"Manufacturer: {match.manufacturer}."
+                f"{record.medicine_name} {record.strength}: {stock_status}. "
+                f"Current quantity: {record.stock} units."
             ),
             "matched_medicine": {
-                "medicine_id": match.medicine_id,
-                "medicine_name": match.medicine_name,
-                "strength": match.strength,
+                "medicine_id": record.medicine_id,
+                "medicine_name": record.medicine_name,
+                "strength": record.strength,
                 "stock": record.stock,
-                "fuzzy_score": match.fuzzy_score,
             },
             "stock_backend_status": self.stock_backend_status,
-            "seeded_rows_on_startup": self.seeded_rows,
+            "synced_rows_on_startup": self.synced_rows,
         }
 
-    def update_stock(self, medicine_name: str, strength: str, delta: int) -> dict:
-        query = f"stock for {medicine_name} {strength}".strip()
-        match = self._resolve_match(query, medicine_name, strength)
-        if not match:
-            return {
-                "ok": False,
-                "message": "Medicine/strength not found in master data.",
-                "stock_backend_status": self.stock_backend_status,
-            }
-
-        current = self.stock_repo.get_stock(match.medicine_id)
-        if current is None:
-            current = self.stock_repo.set_stock(match.medicine_id, int(match.stock))
-        updated = self.stock_repo.adjust_stock(match.medicine_id, int(delta))
+    def add_stock(self, medicine_name: str, strength: str, quantity: int) -> dict:
+        if quantity <= 0:
+            return {"ok": False, "message": "Quantity must be greater than zero."}
+        record = self.stock_repo.add_stock(medicine_name.strip(), strength.strip(), int(quantity))
         return {
             "ok": True,
-            "message": f"Updated stock for {match.medicine_name} {match.strength}: {updated.stock}",
-            "medicine_id": match.medicine_id,
-            "medicine_name": match.medicine_name,
-            "strength": match.strength,
-            "stock": updated.stock,
-            "stock_source": updated.source,
+            "message": f"Updated stock for {record.medicine_name} {record.strength}: {record.stock}",
+            "medicine_name": record.medicine_name,
+            "strength": record.strength,
+            "stock": record.stock,
+            "stock_source": record.source,
+            "stock_backend_status": self.stock_backend_status,
+        }
+
+    def remove_stock(self, medicine_name: str, strength: str, quantity: int) -> dict:
+        if quantity <= 0:
+            return {"ok": False, "message": "Quantity must be greater than zero."}
+        try:
+            record = self.stock_repo.remove_stock(medicine_name.strip(), strength.strip(), int(quantity))
+            return {
+                "ok": True,
+                "message": f"Updated stock for {record.medicine_name} {record.strength}: {record.stock}",
+                "medicine_name": record.medicine_name,
+                "strength": record.strength,
+                "stock": record.stock,
+                "stock_source": record.source,
+                "stock_backend_status": self.stock_backend_status,
+            }
+        except Exception as exc:
+            return {"ok": False, "message": str(exc), "stock_backend_status": self.stock_backend_status}
+
+    def update_stock(self, medicine_name: str, strength: str, delta: int) -> dict:
+        if delta >= 0:
+            return self.add_stock(medicine_name, strength, delta)
+        return self.remove_stock(medicine_name, strength, abs(delta))
+
+    def upload_stock_csv(self, file_bytes: bytes) -> dict:
+        try:
+            df = pd.read_csv(io.BytesIO(file_bytes))
+        except Exception as exc:
+            return {"ok": False, "message": f"Invalid CSV file: {exc}"}
+
+        df.columns = [str(col).strip() for col in df.columns]
+        required = {"medicine_name", "strength", "stock"}
+        optional = {"manufacturer_company_name"}
+        missing = required - set(df.columns)
+        if missing:
+            return {"ok": False, "message": f"Missing required columns: {sorted(missing)}"}
+
+        df = df.dropna(how="all")
+        if df.empty:
+            return {"ok": False, "message": "CSV contains no usable rows."}
+
+        processed = 0
+        new_added = 0
+        updated = 0
+        seen_keys: set[tuple[str, str]] = set()
+
+        for _, row in df.iterrows():
+            medicine_name = str(row.get("medicine_name", "")).strip()
+            strength = str(row.get("strength", "")).strip()
+            stock_raw = row.get("stock", "")
+            if not medicine_name or not strength or str(stock_raw).strip() == "":
+                continue
+
+            try:
+                quantity = int(float(stock_raw))
+            except Exception:
+                return {"ok": False, "message": f"Invalid stock value for {medicine_name} {strength}: {stock_raw}"}
+            if quantity < 0:
+                return {"ok": False, "message": f"Negative quantity not allowed for {medicine_name} {strength}"}
+
+            key = (medicine_name.lower(), strength.lower())
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
+
+            existing = self.stock_repo.get_stock(medicine_name, strength)
+            record = self.stock_repo.add_stock(medicine_name, strength, quantity)
+            if existing is None:
+                new_added += 1
+            else:
+                updated += 1
+            processed += 1
+
+        return {
+            "ok": True,
+            "message": "CSV upload completed.",
+            "new_medicines_added": new_added,
+            "existing_medicines_updated": updated,
+            "total_processed": processed,
             "stock_backend_status": self.stock_backend_status,
         }
 
@@ -215,13 +278,12 @@ class MedicineAssistantService:
                 strength=parsed_strength,
             )
             if result is None:
-                result = {
-                    "route": "structured_knowledge",
-                    "lookup_source": "chroma",
-                    "answer": "Medicine not found in knowledge base for the requested name/strength.",
-                    "matched_medicine": None,
-                    "not_found": True,
-                }
+                result = self.rag_pipeline.answer_knowledge_query(
+                    query,
+                    medicine_name=parsed_name,
+                    strength=parsed_strength,
+                    strict_match=True,
+                )
         else:
             parsed_strength = extraction.strength or self._extract_strength_from_query(query)
             parsed_name = self._clean_name_from_query(query, parsed_strength) or extraction.medicine_name

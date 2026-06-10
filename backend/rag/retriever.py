@@ -5,7 +5,13 @@ from dataclasses import dataclass
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-from backend.config import CHROMA_COLLECTION_NAME, EMBEDDING_MODEL_NAME, TOP_K, VECTOR_STORE_DIR
+from backend.config import (
+    CHROMA_COLLECTION_NAME,
+    CHROMA_RELEVANCE_MAX_DISTANCE,
+    EMBEDDING_MODEL_NAME,
+    TOP_K,
+    VECTOR_STORE_DIR,
+)
 
 
 @dataclass
@@ -48,3 +54,7 @@ class ChromaMedicineRetriever:
             )
             for doc, meta, dist in zip(docs, metas, distances)
         ]
+
+    def search_relevant(self, query: str, k: int = TOP_K) -> list[RetrievedDoc]:
+        docs = self.search(query, k=k)
+        return [doc for doc in docs if doc.distance is not None and doc.distance <= CHROMA_RELEVANCE_MAX_DISTANCE]
